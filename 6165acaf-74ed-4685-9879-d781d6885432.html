@@ -1,0 +1,3197 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>IEEE Collabratec&reg;</title>
+<meta name="description" content="IEEE Collabratec&reg; is a research, collaboration and professional networking platform offered to members, researchers, authors and volunteers. IEEE is the world's largest professional association for the advancement of technology">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Open Group Meta Tags --> 
+<meta property="og:title" content="IEEE Collabratec&reg; | Bright Minds. Bright Ideas." /> 
+<meta property="og:site_name" content="IEEE Collabratec&reg;" /> 
+<meta property="og:type" content="website"/> 
+<meta property="og:url" content="https://ieee-collabratec.ieee.org" /> 
+<meta property="og:image" content="https://ieee-collabratec.ieee.org/assets/img/collabratec_logo_tablet.png"/>
+<meta property="og:image:width" content="50" />
+<meta property="og:image:height" content="50" />
+<meta property="og:description" content="IEEE Collabratec&reg; is a research, collaboration and professional networking platform offered to members, researchers, authors and volunteers. IEEE is the world's largest professional association for the advancement of technology." /> 
+<!-- Open Group Meta Tags --> 
+
+<!-- Fonts -->
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="manifest" href="/assets/data/manifest.json">
+<link href="assets/fonts/open-sans/font.css?ver=11042020_1031" rel="stylesheet">
+<link href="assets/fonts/architectsdaughter/font.css?ver=11042020_1031" rel="stylesheet">
+<link href="assets/fonts/font-awesome/less/font-awesome.css?ver=11042020_1031" rel="stylesheet">
+<!-- /Fonts-->
+
+<!-- Bootstrap -->
+<link href="assets/js/libs/bootstrap/bootstrap.css?ver=11042020_1031" type="text/css"
+	rel="stylesheet">
+<!-- /Bootstrap -->
+
+<!-- jQuery.mmenu -->
+<link rel="stylesheet" type="text/css"
+	href="assets/js/libs/mmenu/jquery.mmenu.all.css?ver=11042020_1031">
+<!-- /jQuery.mmenu -->
+
+<!-- compiled less CSS -->
+<!-- /compiled less CSS -->
+
+<link href="/assets/css/style.css?ver=11042020_1031" type="text/css" rel="stylesheet">
+
+<link href="/assets/css/common-layouts/landing_page.css?ver=11042020_1031" type="text/css" rel="stylesheet">
+<style>
+
+    /*Styles imported from styles_v2 file*/
+    * {
+
+        font-family: "Open Sans";
+        color: #17191f;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: bold;
+        line-height: 1.1;
+        color: inherit;
+        font-family: inherit;
+    }
+    .nav > li > a {
+        position: relative;
+        display: block;
+        line-height: 1.42857143;
+        border-radius: 4px 4px 0 0;
+    }
+    a {
+        text-decoration: none;
+    }
+
+    .no-padd {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .no-padd-right {
+        padding-right: 0;
+    }
+
+    .no-padd-left {
+        padding-left: 0;
+    }
+	.margin-r5{
+		margin-right:5px;
+	}	
+	
+    #top-app-banner {
+        display: none;
+        position: absolute;
+        position: fixed;
+        top: 0;
+        z-index: 8;
+    }
+
+    #top-app-banner .top-app-bg {
+        display: block;
+        max-width: 100%;
+    }
+
+    #top-app-banner p {
+        position: absolute;
+        top: 0;
+        color: #fff;
+        left: 10px;
+        max-width: 200px;
+        font-size: 14px;
+        top: 10px;
+    }
+
+    #top-app-banner .top-app-link {
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+        color: #fff;
+        font-weight: 600;
+        padding: 5px 10px;
+        background: rgba(0, 102, 153, 0.4);
+    }
+
+    #top-app-banner .top-app-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: transparent;
+        border: none;
+        color: #fff;
+    }
+
+    #top-app-banner .top-app-btn i {
+        color: #fff;
+        font-size: 22px;
+    }
+
+    #header-menu {
+        background-color: #006699;
+        min-height: 0;
+        margin-bottom: 0;
+        top: 0;
+        height: 56px;
+        padding-top: 9px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 11;
+    }
+
+    #header-menu ul.nav {
+        padding: 10px 0;
+    }
+
+    #header-menu ul.nav li:first-child {
+        border: none;
+    }
+
+    #header-menu ul.nav li a {
+        padding: 0 10px;
+        color: #fff;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    #header-menu ul.nav li i {
+        color: #fff;
+    }
+
+    #header-menu ul.nav li i.home-icon {
+        display: block!important;
+        float: left;
+        width: 11px;
+        height: 11px;
+        margin-top: 1px;
+        margin-right: 2px;
+        background-image: url(../../assets/img/icon_home.png);
+    }
+
+    #header-menu ul.nav li.top-links-out a, #header-menu ul.nav li.top-links-out b {
+        font-size: 16px;
+        color: #fff;
+        border-left-color: #ccc;
+        background: transparent;
+    }
+
+    #footer ul, .main-footer ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    #footer, .main-footer {
+        margin: 0!important;
+        border-top: 5px solid #006699;
+        background-color: transparent;
+        padding-top: 15px;
+    }
+
+    #footer h4, .main-footer h4 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    #footer ul a, .main-footer ul a {
+        color: #000;
+    }
+
+    #footer .about, .main-footer .about {
+        position: relative;
+    }
+
+    #footer .btn, .main-footer .btn {
+        padding: 5px 7px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+    }
+
+    #footer .btn-sign-in, .main-footer .btn-sign-in {
+        margin-right: 5px;
+        background-color: #008752;
+        color: #fff;
+        border: none;
+    }
+
+    #footer .btn-create, .main-footer .btn-create {
+        background-color: #016791;
+        border: none;
+    }
+
+    #footer .btn, .main-footer .btn {
+        padding: 5px 7px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+    }
+
+    #footer .copyright, .main-footer .copyright {
+        padding: 15px 0;
+        border-top: 1px solid #b7b7b7;
+    }
+    #footer .copyright p {
+        font-size: 16px;
+
+    }
+    #footer .copyright p a {
+        font-size: 16px;
+    }
+
+    #footer #mobile-footer-links .collapse-title i, .main-footer #mobile-footer-links .collapse-title i {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        font-size: 18px;
+    }
+
+    #footer #mobile-footer-links .collapse-title i.fa-angle-down, .main-footer #mobile-footer-links .collapse-title i.fa-angle-down {
+        display: none;
+    }
+
+    #footer #mobile-footer-links ul li, .main-footer #mobile-footer-links ul li {
+        margin-top: 8px;
+    }
+
+    #footer #mobile-footer-links .collapse-title, .main-footer #mobile-footer-links .collapse-title {
+        position: relative;
+        color: #006699;
+    }
+
+    @media (min-width: 992px) {
+        #footer .about, .main-footer .about {
+            border-left: 1px solid #b7b7b7;
+            height: 215px;
+            margin-bottom: 15px;
+            padding-right: 0;
+            padding-left: 15px;
+        }
+    }
+
+	.btn {
+		display: inline-block;
+		padding: 6px 12px;
+		margin-bottom: 0;
+		font-size: 16px;
+		font-weight: normal;
+		line-height: 1.42857143;
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: middle;
+		-ms-touch-action: manipulation;
+		touch-action: manipulation;
+		cursor: pointer;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		background-image: none;
+		border: 1px solid transparent;
+		border-radius: 0;
+		-webkit-font-smoothing: subpixel-antialiased;
+	}
+
+	.btn:focus {
+		outline: none;
+	}
+
+	.primary-button {
+		border-color: #6b9c30;
+		background-color: #6b9c30;
+		color: #fff;
+		font-weight: bold;
+		font-size: 16px;
+		padding: 3px 12px;
+		transition: all 0.3s ease-in-out;
+	}
+
+	.primary-button[disabled] {
+		pointer-events: none;
+		cursor: not-allowed;
+		filter: alpha(opacity=65);
+		box-shadow: none;
+		opacity: .65;
+	}
+
+	.primary-button:focus {
+		outline: none;
+	}
+
+	.primary-button:hover {
+		color: #fff;
+		background-color: #81ba3e;
+		border-color: #81ba3e;
+	}
+
+	.primary-button i {
+		color: #fff;
+	}
+
+	.primary-button span {
+		color: #fff;
+	}
+
+	.secondary-button-blue {
+		background-color: #009fda;
+		border-color: #009fda;
+		color: #fff;
+		text-decoration: none;
+		font-size: 16px;
+		padding: 3px 12px;
+		font-weight: bold;
+		transition: all 0.3s ease-in-out;
+	}
+
+	.secondary-button-blue:hover {
+		background-color: #00adef;
+		border-color: #00adef;
+		color:#fff;
+	}
+
+	.secondary-button-blue:focus {
+		outline: none;
+	}
+
+	.dropdown-menu {
+		padding: 0;
+		border: none;
+		right: -195px !important;
+		top: 99%;
+		left: auto;
+		z-index: 1000;
+		transition: all 0.3s ease-in-out;
+		background-color: transparent;
+	}
+
+	.dropdown-menu.visible {
+		right: -25px !important;
+	}
+
+	.dropdown-menu li a {
+		color: #fff !important;
+		cursor: pointer;
+		padding: 5px 10px;
+		font-size: 16px !important;
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+
+	.dropdown-menu li a i {
+		width: 12px;
+		color: #fff;
+		margin-right: 5px;
+	}
+
+    #fixed-footer-line {
+        position: fixed;
+        bottom: 0;
+        border-top: 5px solid #006699;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    a#top {
+        position: fixed;
+        bottom: 5px;
+        display: none;
+        cursor: pointer;
+        z-index: 999;
+        background-color: #006699;
+        left: 50%;
+        width: 112px;
+        padding: 2px 10px;
+        margin-left: -56px;
+        border-top: 2px solid #fff;
+        border-left: 2px solid #fff;
+        border-right: 2px solid #fff;
+        -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+        -webkit-border-top-left-radius: 2px;
+        -webkit-border-top-right-radius: 2px;
+        -moz-border-radius-topleft: 2px;
+        -moz-border-radius-topright: 2px;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        color: #fff;
+    }
+
+    a#top i {
+        color: #fff;
+    }
+
+    /*End of imported styles*/
+
+	.minimized-on-scroll-header {
+		padding: 0 25px;
+		position: fixed;
+		height: 60px;
+		background-color: #FFFFFF;
+		top: -60px;
+		left: 0;
+		visibility: hidden;
+		width: 100%;
+		z-index: 1000;
+		line-height: 58px;
+		transition: all 0.5s ease-in-out;
+		-webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+		box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+	}
+
+	.minimized-on-scroll-header.visible {
+		top: 0;
+		visibility: visible;
+	}
+
+	.minimized-on-scroll-header .logo-tablet {
+		display: none;
+		height: 50px;
+	}
+
+	@media (min-width: 768px) and (max-width: 991px) {
+		.minimized-on-scroll-header .logo-tablet {
+			display: inline-block;
+			margin: 5px 30px 0 0;
+		}
+	}
+
+	.minimized-on-scroll-header .logo {
+		height: 50px;
+		margin: 5px 100px 0 0;
+	}
+
+	@media (min-width: 1199px) and (max-width: 1400px) {
+		.minimized-on-scroll-header .logo {
+			margin: 5px 70px 0 0;
+		}
+	}
+
+	@media (min-width: 992px) and (max-width: 1199px) {
+		.minimized-on-scroll-header .logo {
+			margin: 5px 50px 0 0;
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 991px) {
+		.minimized-on-scroll-header .logo {
+			display: none;
+		}
+	}
+
+	@media (max-width: 767px) {
+        .minimized-on-scroll-header {
+            top: 0;
+            visibility: visible;
+        }
+		.minimized-on-scroll-header .logo {
+			margin: 5px 0 0 0;
+		}
+	}
+
+	.minimized-on-scroll-header ul {
+		list-style: none;
+		display: inline-block;
+		margin-bottom: 0;
+		padding-left: 0;
+	}
+
+	.minimized-on-scroll-header ul li {
+		display: inline-block;
+		padding: 0 20px;
+	}
+
+	@media (min-width: 1199px) and (max-width: 1400px) {
+		.minimized-on-scroll-header ul li {
+			padding: 0 10px;
+		}
+	}
+
+	@media (min-width: 992px) and (max-width: 1199px) {
+		.minimized-on-scroll-header ul li {
+			padding: 0 5px;
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 991px) {
+		.minimized-on-scroll-header ul li {
+			padding: 0 10px;
+		}
+	}
+
+	.minimized-on-scroll-header ul li:first-child {
+		padding-left: 0;
+	}
+
+	.minimized-on-scroll-header ul li:last-child {
+		padding-right: 0;
+	}
+
+	.minimized-on-scroll-header .links-large-screen a {
+		padding-bottom: 5px;
+	}
+
+	.minimized-on-scroll-header .links-large-screen a.active {
+		-webkit-box-shadow: inset 0px -3px 0px 0px #009fda;
+		-moz-box-shadow: inset 0px -3px 0px 0px #009fda;
+		box-shadow: inset 0px -3px 0px 0px #009fda;
+	}
+
+	@media (max-width: 450px) {
+		.minimized-on-scroll-header .links-large-screen a.active {
+			-webkit-box-shadow: inset 0px -2px 0px 0px #009fda;
+			-moz-box-shadow: inset 0px -2px 0px 0px #009fda;
+			box-shadow: inset 0px -2px 0px 0px #009fda;
+		}
+	}
+
+	.minimized-on-scroll-header .links-large-screen a:hover {
+		-webkit-box-shadow: inset 0px -3px 0px 0px #009fda;
+		-moz-box-shadow: inset 0px -3px 0px 0px #009fda;
+		box-shadow: inset 0px -3px 0px 0px #009fda;
+	}
+
+	@media (max-width: 450px) {
+		.minimized-on-scroll-header .links-large-screen a:hover {
+			-webkit-box-shadow: inset 0px -2px 0px 0px #009fda;
+			-moz-box-shadow: inset 0px -2px 0px 0px #009fda;
+			box-shadow: inset 0px -2px 0px 0px #009fda;
+		}
+	}
+
+	@media (max-width: 767px) {
+		.minimized-on-scroll-header .log-in {
+			padding: 17px 0;
+		}
+	}
+
+	.minimized-on-scroll-header .log-in .btn {
+		margin-right: 5px;
+	}
+
+	.minimized-on-scroll-header .log-in .btn span {
+		color: #FFFFFF;
+		font-weight: bold;
+	}
+
+	.minimized-on-scroll-header .log-in .btn img {
+		margin-right: 5px;
+	}
+
+	@media (max-width: 1060px) {
+		.minimized-on-scroll-header .log-in .btn span {
+			display: none;
+		}
+		.minimized-on-scroll-header .log-in .btn img {
+			margin-right: 0;
+		}
+	}
+
+	.minimized-on-scroll-header .dropdown .fa-bars {
+		font-size: 26px;
+		vertical-align: middle;
+		cursor: pointer;
+	}
+
+	.minimized-on-scroll-header .dropdown .fa-bars:hover {
+		opacity: 0.8;
+	}
+
+	.minimized-on-scroll-header .dropdown .btn {
+		display: block;
+		text-align: left;
+		padding: 10px 15px;
+	}
+
+	.minimized-on-scroll-header .dropdown .btn span {
+		color: #FFFFFF;
+		font-weight: bold;
+	}
+
+	.minimized-on-scroll-header .dropdown li {
+		display: block;
+		padding: 0;
+	}
+
+	.minimized-on-scroll-header .dropdown li a {
+		padding: 10px 15px;
+	}
+
+	.minimized-on-scroll-header .dropdown li a:hover {
+		background-color: rgba(144, 108, 108, 0.8);
+	}
+
+	.minimized-on-scroll-header .dropdown li a.active {
+		background-color: rgba(144, 108, 108, 0.8);
+	}
+
+	.minimized-on-scroll-header a {
+		cursor: pointer;
+		color: black;
+		font-size: 16px;
+	}
+
+	h1,
+	h3,
+	h5 {
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	@media (max-width: 767px) {
+		h1 {
+			font-size: 28px;
+			line-height: 36px;
+		}
+	}
+
+	p,
+	a {
+		font-size: 20px;
+		outline: none;
+	}
+
+	@media (max-width: 1060px) {
+		p,
+		a {
+			font-size: 16px;
+		}
+	}
+
+	@media (max-width: 767px) {
+		p,
+		a {
+			font-size: 16px;
+		}
+	}
+
+	a:hover,
+	a:focus {
+		text-decoration: none;
+		outline: none;
+	}
+
+	#content {
+		padding-bottom: 0;
+	}
+
+	.top-banner {
+		background-size: cover;
+		padding-top: 30px;
+		opacity: 0.9;
+	}
+
+	.top-banner .wrapper {
+		margin: 0 auto;
+		max-width: 1000px;
+		height: 100%;
+	}
+
+	.top-banner .top {
+		overflow: hidden;
+		max-width: 1200px;
+		margin: 0 auto 10px auto;
+	}
+
+	@media (max-width: 767px) {
+		.top-banner .top {
+			display: none;
+		}
+	}
+
+	.top-banner .banner-header {
+		text-transform: none;
+		text-align: center;
+		color: #FFFFFF;
+		margin: 40px auto;
+		max-width: 800px;
+		line-height: 52px;
+		padding: 0 15px;
+	}
+
+	@media (max-width: 767px) {
+		.top-banner .banner-header {
+			margin: 20px 0;
+			line-height: 36px;
+		}
+	}
+
+	.top-banner .bottom-buttons {
+		margin: 30px auto;
+		text-align: center;
+	}
+
+	@media (max-width: 767px) {
+		.top-banner .bottom-buttons {
+			margin: 30px auto;
+		}
+	}
+
+	.top-banner .bottom-buttons .btn {
+		padding: 10px 15px;
+		font-size: 20px;
+		font-weight: 600;
+	}
+
+	@media (max-width: 450px) {
+		.top-banner .bottom-buttons .btn {
+			padding: 10px;
+			font-size: 16px;
+		}
+	}
+
+	.top-banner .bottom-buttons .btn img {
+		margin-right: 8px;
+	}
+
+	@media (max-width: 991px) {
+		.top-banner .nav-tabs a {
+			padding: 10px 10px;
+		}
+	}
+
+	.top-banner .banner-lp {
+		background: rgba(0, 0, 1, 0.5);
+		height: 100%;
+		overflow: hidden;
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+
+	.top-banner .banner-lp .tab-text {
+		margin: 15px auto 30px auto;
+		min-height: 120px;
+		max-width: 810px;
+	}
+
+	@media (min-width: 768px) and (max-width: 991px) {
+		.top-banner .banner-lp .tab-text {
+			min-height: 95px;
+			margin: 15px auto 20px auto;
+			padding: 0 15px;
+		}
+	}
+
+	@media (max-width: 767px) {
+		.top-banner .banner-lp .tab-text {
+			min-height: 95px;
+			margin: 15px auto 20px auto;
+		}
+	}
+
+	@media (max-width: 600px) {
+		.top-banner .banner-lp .tab-text {
+			min-height: 105px;
+		}
+	}
+
+	@media (max-width: 450px) {
+		.top-banner .banner-lp .tab-text {
+			min-height: 155px;
+		}
+	}
+
+	.top-banner .banner-lp .tab-link {
+		text-align: center;
+		margin: 0 auto 30px auto;
+	}
+
+	.top-banner .banner-lp .tab-link a {
+		color: #9CDB51;
+		font-weight: bold;
+		padding: 10px 15px;
+		border: 3px solid #9CDB51;
+		text-transform: uppercase;
+	}
+
+	.top-banner .banner-lp .tab-link a:hover {
+		opacity: 0.85;
+	}
+
+	.top-banner .banner-lp .tab-link a i {
+		margin-right: 8px;
+		color: #9CDB51;
+	}
+
+	.top-banner .logo a {
+		display: inline-block;
+	}
+
+	.top-banner .logo img {
+		display: block;
+		max-height: 88px;
+	}
+
+	.top-banner .moto {
+		display: inline-block;
+		color: #333;
+		font-size: 20px;
+		vertical-align: top;
+		line-height: 88px;
+		position: relative;
+		margin-left: 40px;
+	}
+
+	.top-banner .moto:before {
+		display: block;
+		content: '';
+		position: absolute;
+		width: 1px;
+		height: 40px;
+		top: 40%;
+		margin-top: -10px;
+		left: -10px;
+		background: #333;
+	}
+
+	.top-banner .store-buttons {
+		height: 88px;
+		line-height: 115px;
+	}
+
+	.top-banner .store-buttons a {
+		display: inline-block;
+		margin-left: 10px;
+	}
+
+	.top-banner .store-buttons a:hover {
+		opacity: 0.9;
+		cursor: pointer;
+	}
+
+	.top-banner .store-buttons a img {
+		display: block;
+		max-width: 100px;
+		border: 1px solid #FFF;
+		border-radius: 5px;
+	}
+
+	.top-banner .store-buttons span {
+		float: right;
+	}
+
+	.top-banner .store-buttons-icon-apple {
+		background-image: url("/assets/img/logo-apple.png");
+		background-size: cover;
+		min-height: 35px;
+		min-width: 100px;
+	}
+
+	.top-banner .store-buttons-icon-google {
+		background-image: url("/assets/img/logo-google.png");
+		background-size: cover;
+		min-height: 35px;
+		min-width: 105px;
+	}
+
+	.top-banner .nav-tabs li a:hover {
+		background-color: transparent;
+		border: 0;
+	}
+	.top-banner .nav-tabs li a:focus {
+		background-color: transparent;
+	}
+	.events {
+		overflow: hidden;
+	}
+
+	.events .header {
+		background-image: -webkit-linear-gradient(90deg, #437d5d, #36654b);
+		background-image: -moz-linear-gradient(90deg, #437d5d, #36654b);
+		background-image: -ms-linear-gradient(90deg, #437d5d, #36654b);
+		background-image: -o-linear-gradient(90deg, #437d5d, #36654b);
+		background-image: linear-gradient(0deg, #437d5d, #36654b);
+		padding: 40px 15px;
+	}
+
+	.events .header h1 {
+		margin: 0 0 10px;
+		color: #fff;
+		text-transform: uppercase;
+	}
+
+	.events .header p {
+		color: #fff;
+		font-size: 18px;
+	}
+
+	.events .centered {
+		float: none;
+		margin: 0 auto;
+		max-width: 800px;
+	}
+
+	.events .calendar-img {
+		text-align: center;
+	}
+
+	.events .content {
+		background-image: url("/assets/img/landing_page/volunteers.png");
+		background-size: cover;
+		min-height: 320px;
+		padding-top: 10px;
+	}
+
+	@media (max-width: 450px) {
+		.events .content .tab-content {
+			min-height: 330px;
+		}
+	}
+
+	.events .text {
+		color: #fff;
+		font-size: 20px;
+		line-height: 30px;
+		text-align: center;
+		float: none;
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 50px 10px;
+	}
+
+	.events .tab-title {
+		display: table;
+	}
+
+	.events .tab-title span {
+		display: inline-block;
+		max-width: 165px;
+	}
+
+	.events .tab-title a {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.tabs-list {
+		list-style: none;
+		text-align: center;
+		overflow: hidden;
+		border-bottom: none;
+	}
+
+	.tabs-list li {
+		display: inline-block;
+		text-transform: uppercase;
+		padding: 3px 9px;
+		float: none;
+		font-weight: bold;
+	}
+
+	.tabs-list li:hover {
+		cursor: pointer;
+		outline: none;
+	}
+
+	.tabs-list li.active {
+		-webkit-box-shadow: inset 0px -3px 0px 0px #009fda;
+		-moz-box-shadow: inset 0px -3px 0px 0px #009fda;
+		box-shadow: inset 0px -3px 0px 0px #009fda;
+	}
+
+	.tabs-list li.active a {
+		background: transparent;
+		color: #fff;
+		border: 0;
+		outline: none;
+	}
+
+	.tabs-list li a:hover {
+		background-color: transparent;
+	}
+	.tabs-list li.active a:hover {
+		background-color: transparent;
+	}
+
+	.tabs-list li.active:hover {
+		cursor: pointer;
+		border: none;
+		opacity: 1;
+		color: #fff;
+	}
+	.tabs-list li.active:focus {
+		background-color: transparent;
+		border: none;
+		color: #fff;
+	}
+	.tabs-list li.active a:hover {
+		cursor: pointer;
+		border: none;
+		opacity: 1;
+		color: #fff;
+	}
+	.tabs-list li.active a:focus {
+		background-color: transparent;
+		border: none;
+		color: #fff;
+	}
+	@media (max-width: 450px) {
+		.tabs-list li {
+			padding: 3px 5px;
+		}
+	}
+
+	.tabs-list li a {
+		background: transparent;
+		color: #fff;
+		border: none;
+		font-size: 16px;
+	}
+
+	.tabs-list li a:hover {
+		text-decoration: none;
+		opacity: 0.7;
+		outline: none;
+	}
+
+	@media (min-width: 768px) and (max-width: 991px) {
+		.tabs-list li a {
+			font-size: 15px;
+		}
+	}
+
+	@media (max-width: 450px) {
+		.tabs-list li a {
+			font-size: 14px;
+		}
+	}
+
+	.work-together,
+	.meet-people {
+		background-color: #FFFFFF;
+		padding-top: 10px;
+	}
+
+	.work-together h1,
+	.meet-people h1 {
+		margin-bottom: 25px;
+	}
+
+	.work-together .main-text,
+	.meet-people .main-text {
+		text-align: center;
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 0 15px;
+	}
+
+	@media (max-width: 767px) {
+		.work-together .main-text,
+		.meet-people .main-text {
+			padding: 15px;
+		}
+	}
+
+	.work-together .main-text p,
+	.meet-people .main-text p {
+		max-width: 1500px;
+		margin: auto;
+	}
+
+	.work-together .with-bg,
+	.meet-people .with-bg {
+		background-size: cover;
+		background-position: center;
+		padding: 30px 100px;
+	}
+
+	@media (max-width: 767px) {
+		.work-together .with-bg,
+		.meet-people .with-bg {
+			padding: 0 15px 30px 15px;
+		}
+	}
+	@media (max-width: 767px) {
+		.work-together .with-bg {
+			height: 220px !important;
+		}
+	}
+	.work-together .cards,
+	.meet-people .cards {
+		padding: 50px 130px;
+		max-width: 1500px;
+	}
+
+	@media (min-width: 992px) and (max-width: 1199px) {
+		.work-together .cards,
+		.meet-people .cards {
+			padding: 50px 50px;
+		}
+	}
+
+	@media (max-width: 991px) {
+		.work-together .cards,
+		.meet-people .cards {
+			padding: 50px 0;
+		}
+	}
+
+	@media (max-width: 767px) {
+		.work-together .cards,
+		.meet-people .cards {
+			padding: 30px 0;
+		}
+	}
+
+	.work-together .cards .card-container,
+	.meet-people .cards .card-container {
+		text-align: center;
+	}
+
+	@media (max-width: 767px) {
+		.work-together .cards .card-container,
+		.meet-people .cards .card-container {
+			margin-bottom: 30px;
+		}
+		.work-together .cards .card-container:last-child,
+		.meet-people .cards .card-container:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.work-together .cards .card-container .card h3,
+	.meet-people .cards .card-container .card h3 {
+		font-size: 20px;
+	}
+
+	.work-together .cards .card-container .card .icon,
+	.meet-people .cards .card-container .card .icon {
+		min-height: 65px;
+	}
+
+	.work-together .cards .card-container .card .img,
+	.meet-people .cards .card-container .card .img {
+		height: 300px;
+	}
+
+	.work-together .cards .card-container .card a,
+	.meet-people .cards .card-container .card a {
+		font-weight: bold;
+	}
+
+	.work-together .cards .card-container .card a:hover,
+	.meet-people .cards .card-container .card a:hover {
+		cursor: pointer;
+	}
+
+	.work-together .cards .card-container .card .card-desc,
+	.meet-people .cards .card-container .card .card-desc {
+		background-color: #069;
+		color: white;
+		padding: 10px 20px;
+		min-height: 208px;
+	}
+
+	.work-together .cards .card-container .card .img-workspace {
+		background-image: url("/assets/img/landing_page/img-workspace.png");
+	}
+
+	.work-together .cards .card-container .card .img-collaborating {
+		 background-image: url("/assets/img/landing_page/img-collaborating.png");
+	}
+
+	.work-together .library-research {
+		 background-image: url("/assets/img/landing_page/library-research.png");
+	}
+
+
+	@media (min-width: 768px) and (max-width: 991px) {
+		.work-together .cards .card-container .card .card-desc,
+		.meet-people .cards .card-container .card .card-desc {
+			min-height: 232px;
+		}
+	}
+
+	@media (max-width: 767px) {
+		.work-together .cards .card-container .card .card-desc,
+		.meet-people .cards .card-container .card .card-desc {
+			padding: 10px 15px 20px 15px;
+			min-height: inherit;
+		}
+	}
+
+	.work-together .cards .card-container .card .card-desc p,
+	.meet-people .cards .card-container .card .card-desc p {
+		color: white;
+		min-height: 100px;
+	}
+
+	@media (max-width: 767px) {
+		.work-together .cards .card-container .card .card-desc p,
+		.meet-people .cards .card-container .card .card-desc p {
+			min-height: inherit;
+		}
+	}
+
+	.work-together #communities h1,
+	.meet-people #communities h1,
+	.work-together #library h1,
+	.meet-people #library h1 {
+		color: white;
+	}
+
+	.work-together #communities p,
+	.meet-people #communities p,
+	.work-together #library p,
+	.meet-people #library p {
+		color: white;
+	}
+
+	.meet-people {
+		background-color: #dddddd;
+	}
+
+	.meet-people .with-bg {
+		color: white;
+		background-color: #074D70;
+	}
+
+	.meet-people .with-bg p {
+		color: white;
+	}
+
+	.meet-people .tabs {
+		margin-bottom: 50px;
+		max-width: 1000px;
+		background: white;
+	}
+
+	@media (max-width: 450px) {
+		.meet-people .tabs {
+			margin-bottom: 30px;
+		}
+	}
+
+	.meet-people .tabs .nav-tabs li {
+		background-color: #eee;
+		border-right: 1px solid lightgrey;
+		border-bottom: 1px solid lightgrey;
+	}
+	.meet-people .tabs .nav-tabs li.active {
+		border-bottom: 1px solid #FFF;
+	}
+
+	.meet-people .tabs .nav-tabs li:last-child {
+		border-right: 0;
+	}
+
+	.meet-people .tabs .nav-tabs li:hover a {
+		opacity: 0.7;
+	}
+    .meet-people .tabs .nav-tabs li.active:hover a {
+        opacity: 1;
+    }
+
+	.meet-people .tabs .nav-tabs li a {
+		color: black;
+		text-align: center;
+		padding: 15px 10px 10px 10px;
+		margin: 0;
+		border: 0;
+		outline: none;
+	}
+
+	.meet-people .tabs .nav-tabs li a h5 {
+		min-height: 30px;
+	}
+
+	@media (min-width: 768px) and (max-width: 991px) {
+		.meet-people .tabs .nav-tabs li a {
+			padding: 15px 5px 10px 5px;
+		}
+		.meet-people .tabs .nav-tabs li a h5 {
+			font-size: 12px;
+		}
+	}
+
+	.meet-people .tabs .nav-tabs li a .icon {
+		min-height: 45px;
+	}
+
+	@media (max-width: 450px) {
+		.meet-people .tabs-content {
+			height: 250px;
+		}
+	}
+
+	.meet-people .tabs-content p {
+		display: none;
+		padding: 25px 30px;
+		margin: 0;
+	}
+
+	@media (max-width: 1060px) {
+		.meet-people .tabs-content p {
+			padding: 20px 15px 10px 15px;
+		}
+	}
+
+	@media (max-width: 767px) {
+		.meet-people .tabs-content p {
+			padding: 40px 15px;
+			min-height: 220px;
+		}
+	}
+
+	.meet-people .tabs-content p.active {
+		display: block;
+	}
+
+	.meet-people .cards-wrapper {
+		background-color: #FFFFFF;
+	}
+
+	.meet-people .img-container {
+		height: 370px;
+		position: relative;
+	}
+	
+	.meet-people .img-container .tab-1 {
+		 background-image: url("/assets/img/landing_page/find_experts.jpg");
+	}
+	
+	.meet-people .img-container .tab-2 {
+		background-image: url("/assets/img/landing_page/get_noticed.jpg");
+	}
+	
+	.meet-people .img-container .tab-3 {
+		 background-image: url("/assets/img/landing_page/img-authoring-1.png");
+	}
+
+	@media (max-width: 767px) {
+		.meet-people .img-container {
+			max-width: inherit;
+			height: 280px;
+		}
+	}
+
+	.meet-people .img-container .img {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.container {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	}
+
+	.slider-block {
+		background-color: lightgray;
+	}
+
+	.slider-block .slider {
+		margin-bottom: 40px;
+	}
+
+	@media (max-width: 767px) {
+		.slider-block .slider {
+			margin-bottom: 0;
+		}
+	}
+
+	.slider-block .slider .carousel {
+		max-width: 1600px;
+	}
+
+	.slider-block .slider .item {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.slider-block .slider .item-inf {
+		position: absolute;
+		top: 10%;
+		left: 50%;
+		z-index: 3;
+		padding: 30px;
+		color: #fff;
+		text-align: left;
+		background: rgba(0, 0, 1, 0.6);
+	}
+
+	@media (min-width: 992px) and (max-width: 1199px) {
+		.slider-block .slider .item-inf {
+			top: 20%;
+			left: 40%;
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 991px) {
+		.slider-block .slider .item-inf {
+			top: 10%;
+			left: 40%;
+			padding: 20px 30px 10px 30px;
+		}
+	}
+
+	@media (max-width: 767px) {
+		.slider-block .slider .item-inf {
+			position: relative;
+			left: 0%;
+			background: #345160;
+			height: 100%;
+			min-height: 210px;
+		}
+	}
+
+	@media (max-width: 450px) {
+		.slider-block .slider .item-inf {
+			min-height: 298px;
+		}
+	}
+
+	@media (max-width: 600px) {
+		.slider-block .slider .item-inf {
+			top: 0%;
+			left: 30%;
+			right: initial;
+			height: 100%;
+		}
+	}
+
+	.slider-block .slider .item-inf h3 {
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-top: 0;
+		padding: 0;
+		line-height: 30px;
+	}
+
+	@media (max-width: 767px) {
+		.slider-block .slider .item-inf h3 {
+			font-size: 18px;
+		}
+	}
+
+	.slider-block .slider .item-inf p {
+		color: #FFF;
+	}
+
+	@media (max-width: 767px) {
+		.slider-block .slider .item-inf p {
+			font-size: 16px;
+		}
+	}
+
+	@media (max-width: 600px) {
+		.slider-block .slider .item-inf p {
+			font-size: 14px;
+		}
+	}
+
+	@media (max-width: 450px) {
+		.slider-block .slider .item-inf p {
+			font-size: 16px;
+		}
+	}
+
+	.slider-block .slider .item-inf#find-job {
+		width: 60%;
+		left: 0;
+	}
+
+	@media (max-width: 767px) {
+		.slider-block .slider .item-inf#find-job {
+			width: 100%;
+		}
+	}
+
+	.slider-block .slider .item-inf#get-discovered {
+		top: 35%;
+	}
+
+	@media (max-width: 767px) {
+		.slider-block .slider .item-inf#get-discovered {
+			left: 0;
+		}
+	}
+
+	.slider-block .slider .item-inf#mentoring {
+		top: 30%;
+	}
+
+	@media (min-width: 1199px) and (max-width: 1400px) {
+		.slider-block .slider .item-inf#mentoring {
+			top: 8%;
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 991px) {
+		.slider-block .slider .item-inf#mentoring {
+			top: 5%;
+		}
+	}
+
+	@media (max-width: 767px) {
+		.slider-block .slider .item-inf#mentoring {
+			left: 0;
+		}
+	}
+
+	.slider-block .slider .item-inf#workforce {
+		left: 0;
+		width: 60%;
+		top: 22%;
+	}
+
+	@media (min-width: 1199px) and (max-width: 1400px) {
+		.slider-block .slider .item-inf#workforce {
+			top: 17%;
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 991px) {
+		.slider-block .slider .item-inf#workforce {
+			top: 13%;
+		}
+	}
+
+	@media (max-width: 767px) {
+		.slider-block .slider .item-inf#workforce {
+			width: 100%;
+		}
+	}
+
+	.slider-block .slider .switch-link {
+		position: absolute;
+		bottom: 2%;
+		left: 15px;
+		background: rgba(255, 255, 255, 0.7);
+		z-index: 20;
+	}
+
+	.slider-block .slider .switch-link:hover {
+		opacity: 0.8;
+	}
+
+	@media (max-width: 767px) {
+		.slider-block .slider .switch-link {
+			bottom: inherit;
+			top: 100px;
+		}
+	}
+
+	.slider-block .slider .switch-link:last-of-type {
+		left: 133px;
+	}
+
+	@media (max-width: 767px) {
+		.slider-block .slider .switch-link:last-of-type {
+			left: inherit;
+			right: 2%;
+		}
+	}
+
+	.slider-block .slider .switch-link .fa {
+		font-size: 40px;
+		padding: 0 20px;
+		line-height: 50px;
+	}
+
+	.slider-block .slider .switch-link#play-pause-button {
+		left: 76px;
+		cursor: pointer;
+		text-align: center;
+		padding: 13px;
+	}
+
+	.slider-block .slider .switch-link#play-pause-button .play-btn {
+		width: 24px;
+		height: 24px;
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.slider-block .slider .switch-link#play-pause-button .play-btn-play {
+		background-image: url("assets/img/landing_page/play-button.png");
+	}
+
+	.slider-block .slider .switch-link#play-pause-button .play-btn-pause {
+		background-image: url("assets/img/landing_page/pause-button.png");
+	}
+
+	.slider-block-title {
+		color: #6B9C30;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-align: center;
+		margin: 40px;
+	}
+
+	@media (max-width: 767px) {
+		.slider-block-title {
+			margin: 30px 15px;
+			font-size: 28px;
+			line-height: 36px;
+		}
+	}
+
+	@media (max-width: 450px) {
+		.slider-block-title {
+			margin: 20px 10px;
+		}
+	}
+
+	.compatible-block {
+		margin: 0 auto;
+		padding: 40px;
+		max-width: 880px;
+	}
+
+	@media (max-width: 767px) {
+		.compatible-block {
+			padding: 40px 15px;
+		}
+	}
+
+	.compatible-block-title {
+		text-transform: uppercase;
+		margin: 20px 0;
+		font-size: 36px;
+	}
+
+	@media (max-width: 767px) {
+		.compatible-block-title {
+			margin: 30px 15px;
+			font-size: 28px;
+			line-height: 36px;
+		}
+	}
+
+	.compatible-device-img {
+		float: left;
+		padding-right: 30px;
+	}
+
+	.compatible-device-img img {
+		max-height: 170px;
+	}
+
+	@media (max-width: 991px) {
+		.compatible-device-img img {
+			max-height: 100px;
+		}
+	}
+
+	.compatible-device-icon:first-of-type {
+		margin-right: 15px;
+	}
+
+	.carousel {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	@media (min-width: 768px) and (max-width: 1199px) {
+		.carousel {
+			width: 90%;
+		}
+	}
+
+	.carousel-indicators {
+		margin-left: 45px;
+		bottom: 10px !important;
+		left: inherit;
+	}
+
+	.carousel-indicators li {
+		border: 2px solid rgba(255, 255, 255, 0.5);
+		width: 14px !important;
+		height: 14px !important;
+		margin: 2px;
+	}
+
+	.carousel-indicators .active {
+		background: rgba(255, 255, 255, 0.5);
+		margin: 2px;
+	}
+
+	.tab-text {
+		color: #FFF;
+		text-align: center;
+		margin: 20px auto;
+		min-height: 100px;
+		font-size: 28px;
+	}
+
+	@media (min-width: 768px) and (max-width: 991px) {
+		.tab-text {
+			font-size: 22px;
+		}
+	}
+
+	@media (max-width: 767px) {
+		.tab-text {
+			font-size: 18px;
+			padding: 0 20px;
+			margin: 10px auto;
+		}
+	}
+
+	.tab-title {
+		color: #FFF;
+		text-align: center;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 24px;
+		margin: 20px auto;
+	}
+
+	.tab-title .switch-link .fa {
+		font-size: 28px;
+		padding: 0 15px;
+		color: #FFF;
+	}
+
+	@media (max-width: 767px) {
+		.tab-title .switch-link .fa {
+			padding: 0;
+		}
+	}
+
+	.tab-title span {
+		color: white;
+		margin: 0 30px;
+	}
+
+	@media (max-width: 767px) {
+		.carousel {
+			width: 100%;
+		}
+		.carousel-indicators {
+			display: none;
+		}
+		.compatible-device-img {
+			float: none !important;
+			text-align: center;
+			padding: 0 !important;
+		}
+		.compatible-device-img img {
+			margin: 0 auto;
+		}
+		.compatible-block-title,
+		.compatible-block-inf,
+		.compatible-icons {
+			text-align: center;
+		}
+		.compatible-icons {
+			margin-top: 30px;
+		}
+	}
+
+	@media print {
+		.page-break {
+			display: block;
+			page-break-before: always;
+		}
+		.non-printable {
+			display: none;
+		}
+		.printable {
+			display: initial;
+		}
+		a[href]:after {
+			content: none;
+		}
+		.tabs-content p {
+			display: table-cell !important;
+			opacity: 1;
+			padding: 0 !important;
+			text-align: justify;
+			width: 33%;
+		}
+		.tabs-content p:nth-child(2) {
+			padding: 0 20px !important;
+		}
+		.main-text,
+		.with-bg {
+			padding-bottom: 0 !important;
+		}
+		.tab-text {
+			min-height: 0 !important;
+		}
+		.card-container {
+			margin: 0 !important;
+		}
+		.cards {
+			padding: 0 !important;
+		}
+		#navbar-carousel .item img,
+		#opportunity-carousel .item img,
+		#events-carousel .item img {
+			display: none;
+		}
+		#navbar-carousel .item h5,
+		#opportunity-carousel .item h5,
+		#events-carousel .item h5,
+		#navbar-carousel .item div,
+		#opportunity-carousel .item div,
+		#events-carousel .item div {
+			text-align: left;
+			text-transform: capitalize;
+		}
+		#navbar-carousel .item .item-inf,
+		#opportunity-carousel .item .item-inf,
+		#events-carousel .item .item-inf {
+			position: relative;
+			top: 0;
+			left: 0;
+			padding: 0;
+		}
+		#navbar-carousel .item .item-inf h3,
+		#opportunity-carousel .item .item-inf h3,
+		#events-carousel .item .item-inf h3 {
+			text-transform: none;
+		}
+		#events-carousel .item {
+			display: table-cell !important;
+		}
+		#events-carousel .switch-link {
+			display: none;
+		}
+		.meet-people .nav-tabs {
+			border: none;
+		}
+		.meet-people .nav-tabs li {
+			border: none !important;
+		}
+		.meet-people .tabs {
+			margin: 0 !important;
+		}
+		.meet-people .cards {
+			display: inline-flex;
+		}
+		.meet-people .cards .card {
+			text-align: justify;
+		}
+		.meet-people .cards .card .icon,
+		.meet-people .cards .card h3 {
+			text-align: center;
+		}
+		.work-together .card-desc,
+		.work-together p,
+		.work-together h3 {
+			min-height: 0 !important;
+			text-align: left;
+			text-transform: none;
+		}
+		.events .header {
+			padding: 0;
+		}
+		.events .event-title {
+			width: 100%;
+			padding-left: 0;
+			text-align: center;
+		}
+		.events .tabs-list li {
+			padding: 3px 30px;
+		}
+		.events .tab-pane {
+			display: table-cell !important;
+			opacity: 1 !important;
+			width: auto;
+			text-align: justify;
+			padding-top: 0 !important;
+		}
+	}
+	#notificationBanner {
+		background-color: #9b9b9b;
+        transition: all 0.5s linear;
+	}
+    #notificationBanner.hidden-banner {
+        margin-top: -80px;
+        visibility: hidden;
+    }
+	#notificationBanner a {
+	    display: block;
+	    position: absolute;
+	    right: 20px;
+		top: 6px;
+		cursor: pointer;
+	}
+	#notificationBanner p {
+		padding:10px 40px;
+		display: block;
+		position: relative;
+		font-size: 16px;
+		font-weight: bold;
+		text-align: center;
+		margin: 0 -15px;
+		color: #fff;
+	}
+	#notificationBanner a i {
+		color: #fff;
+	}
+   	@media (max-width: 767px) {
+        #notificationBanner {
+            margin-top: 60px;
+        }
+        #notificationBanner.hidden-banner {
+            margin-top: 18px;
+        }
+		#notificationBanner a i {
+			font-size: 16px;
+		}
+  	}
+    @media (max-width: 461px) {
+        #notificationBanner.hidden-banner {
+            margin-top: -4px;
+        }
+    }
+	p#rights {
+		font-size: 16px;
+	}
+	.about .logged-out-btns a {
+		font-size: 16px !important;
+	}
+	#footer a {
+		font-size: 16px;
+	}
+	#mobile-footer-links .footer-menu-links,
+	#mobile-footer-links .footer-contact-menu-links,
+	#mobile-footer-links .footer-legal-menu-links {
+		display: none;
+	}
+	#mobile-footer-links .footer-links-visible {
+		display: block;
+	}
+	#mobile-footer-links h4:hover {
+		cursor: pointer;
+	}
+	.logged-in-btns {
+		display: block;
+		margin-top: 10px;
+	}
+</style>
+
+	<script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+	<script>
+		window.addEventListener("load", function(){
+ 			window.cookieconsent.initialise(json)
+		});
+		
+	</script>
+</head>
+<body>
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lte IE 8]>
+		<script src="/assets/js/libs/oldie/html5shiv.js?ver=11042020_1031" type="text/javascript"></script>
+		<script src="/assets/js/libs/oldie/respond.min.js?ver=11042020_1031" type="text/javascript"></script>
+	<![endif]-->
+
+	
+				
+				<div id="page" class="mm-page">
+					<div id="mobile-header" class="col-xs-12 no-padd visible-xs">
+						<div class="col-xs-5 no-padd-left">
+							<a href="https://ieee-collabratec.ieee.org/rest/signin?ppctNextUrl=%2Fapp%2Fhome%2Fpostdetails%2F6165acaf-74ed-4685-9879-d781d6885432%3Fgtmetrack%3DHome_PromotedPost" class="mobile-logo hidden-md hidden-lg pull-left">
+								<img src="assets/img/collabratec_logo_tablet_img.png" alt="IEEE Collabratec&reg; Logo" width="40">
+							</a>
+						</div>
+						<div class="no-padd mobile-search-wrap">
+							<ul id="mobile-header-logged-out" class="visible-xs pull-right">
+								<li><a href="https://www.ieee.org/cart/public/myCart/page.html"> <i class="fa fa-shopping-cart"></i></a></li>
+								<a href="https://ieee-collabratec.ieee.org/rest/signin?ppctNextUrl=%2Fapp%2Fhome%2Fpostdetails%2F6165acaf-74ed-4685-9879-d781d6885432%3Fgtmetrack%3DHome_PromotedPost"><span style="font-size: 14px; vertical-align: -80%; font-weight:bold;">Sign In</span></a>
+							</ul>
+						</div>
+					</div>
+					<!-- /#mobile-header -->
+					<div id="header-menu-wrap"> <!-- HM -> added wrap to hide old header. -->
+						<div id="header-menu" class="navbar navbar-static-top hidden-xs">
+							<div class="container relative">
+								<a href="#mobile-menu" class="mobile-menu-toggle menu-toggle pull-left" style="display: none;"> <i class="fa fa-bars visible"></i>
+									<span class="menu-text menu-toggle">Menu</span>
+								</a>
+								<ul class="sites-menu-links nav navbar-nav hidden-xs">
+									<li id="h-ieee"><a href="http://www.ieee.org/"> <i class="home-icon visible-xs"></i> IEEE.org</a></li>
+									<li id="h-xplore"><a href="http://ieeexplore.ieee.org/">IEEE <i>Xplore</i> Digital Library</a></li>
+									<li id="h-standards"><a href="http://standards.ieee.org/">IEEE Standards</a></li>
+									<li id="h-spectrum"><a href="http://spectrum.ieee.org/">IEEE Spectrum</a></li>
+									<li id="h-more"><a href="http://www.ieee.org/sitemap">More Sites</a></li>
+								</ul>
+
+								<ul class="nav navbar-nav pull-right hidden-xs hidden-on-fixed">
+									<li class="top-links-out" ><a href="https://www.ieee.org/cart/public/myCart/page.html">Cart</a></li>
+									<li class="top-links-out" style='border-left: none;'><a href="https://www.ieee.org/profile/public/createwebaccount/showCreateAccount.html?url=https://ieee-collabratec.ieee.org/rest/signin?ppctNextUrl%7E3D%7E2Fapp%7E2Fhome%7E2Fpostdetails%7E2F6165acaf-74ed-4685-9879-d781d6885432%7E3Fgtmetrack%7E3DHome_PromotedPost&signinurl=https://ieee-collabratec.ieee.org/rest/signin?ppctNextUrl%7E3D%7E2Fapp%7E2Fhome%7E2Fpostdetails%7E2F6165acaf-74ed-4685-9879-d781d6885432%7E3Fgtmetrack%7E3DHome_PromotedPost">Create Account</a></li>
+									<li class="top-links-out sign-in"><a href="https://ieee-collabratec.ieee.org/rest/signin?ppctNextUrl=%2Fapp%2Fhome%2Fpostdetails%2F6165acaf-74ed-4685-9879-d781d6885432%3Fgtmetrack%3DHome_PromotedPost"><img	src="/assets/img/icon_key.png" width="19"> <b>Sign In</b></a></li>
+								</ul>
+
+								<div class="col-xs-3 col-sm-2 col-md-2 col-lg-2 no-padd-left no-padd-right-sm header-fixed-logo" style="display:none;">
+
+									<a href="#" class="logo-fixed hidden-sm pull-left"> 
+										<img src="assets/img/collabratec_logo_tablet_img.png" alt="IEEE Collabratec&reg; Logo" width="35">	
+									</a>
+									<a href="#" class="logo-fixed visible-sm pull-left"> 
+										<img src="assets/img/collabratec_logo_tablet_img.png" alt="IEEE Collabratec&reg; Logo" width="35">
+									</a>
+								</div>
+								<div class="col-xs-6 col-sm-7 col-md-6 col-lg-7 header-fixed-search" style="display: none;">
+									<div class="header-search-box hidden-xs">
+										<div id="header-landing-page">
+											<p>Discover, Connect, Collaboratec</p>
+										</div>
+									</div>
+								</div>
+								<a href="https://www.ieee.org/cart/public/myCart/page.html" class="pull-right hidden-sm shopping-cart-icon" style="display:none;">
+									<i class="fa fa-shopping-cart"></i>
+								</a>
+								<div class="profile-header-nav-box hidden-xs pull-right"></div>
+							</div>
+						</div>
+					</div>
+							
+		<!-- /#banner-->
+
+		<!-- Content -->
+		<div id="#contentmarketingpage">
+			<!--HEADER FROM HTML FILE-->
+			<div id="header-menu" class="navbar navbar-static-top hidden-xs">
+				<ul class="sites-menu-links nav navbar-nav hidden-xs">
+					<li id="h-ieee"><a href="http://www.ieee.org/"> <i class="home-icon visible-xs"></i> IEEE.org</a></li>
+					<li id="h-xplore"><a href="http://ieeexplore.ieee.org/">IEEE <i>Xplore</i> Digital Library</a></li>
+					<li id="h-standards"><a href="http://standards.ieee.org/">IEEE Standards</a></li>
+					<li id="h-spectrum"><a href="http://spectrum.ieee.org/">IEEE Spectrum</a></li>
+					<li id="h-more"><a href="http://www.ieee.org/sitemap">More Sites</a></li>
+				</ul>
+				<ul class="nav navbar-nav pull-right hidden-xs hidden-on-fixed">
+					<li class="top-links-out"><a href="https://www.ieee.org/cart/public/myCart/page.html">Cart</a></li>
+					<li class="top-links-out"  style='border-left: none;'><a href="https://www.ieee.org/profile/public/createwebaccount/showCreateAccount.html?url=https://ieee-collabratec.ieee.org/rest/signin?ppctNextUrl%7E3D%7E2Fapp%7E2Fhome%7E2Fpostdetails%7E2F6165acaf-74ed-4685-9879-d781d6885432%7E3Fgtmetrack%7E3DHome_PromotedPost&signinurl=https://ieee-collabratec.ieee.org/rest/signin?ppctNextUrl%7E3D%7E2Fapp%7E2Fhome%7E2Fpostdetails%7E2F6165acaf-74ed-4685-9879-d781d6885432%7E3Fgtmetrack%7E3DHome_PromotedPost">Create Account</a></li>
+					<li class="top-links-out sign-in"><a href="https://ieee-collabratec.ieee.org/rest/signin?ppctNextUrl=%2Fapp%2Fhome%2Fpostdetails%2F6165acaf-74ed-4685-9879-d781d6885432%3Fgtmetrack%3DHome_PromotedPost"><img	src="/assets/img/icon_key.png" width="19"> <b>Sign In</b></a></li>
+				</ul>
+			</div> 
+			<!--END OF HEADER-->
+			<div  id="on-scroll-header" class="minimized-on-scroll-header non-printable">
+				<img src="/assets/img/collabratec_logo.png" class="logo pull-left">
+				<img src="/assets/img/collabratec_logo_tablet.png" class="logo-tablet pull-left">
+				<ul class="links-large-screen hidden-xs">
+					<li><a class="tab-to-select">People</a></li>
+					<li><a class="tab-to-select">Communities</a></li>
+					<li><a class="tab-to-select">Workspaces</a></li>
+					<li><a class="tab-to-select">Opportunities</a></li>
+					<li><a class="tab-to-select">Library</a></li>
+					<li><a class="tab-to-select">Events</a></li>
+				</ul>
+				<div class="log-in pull-right">
+					<a href="https://ieee-collabratec.ieee.org/rest/signin?ppctNextUrl=%2Fapp%2Fhome%2Fpostdetails%2F6165acaf-74ed-4685-9879-d781d6885432%3Fgtmetrack%3DHome_PromotedPost" class="btn primary-button hidden-xs">
+						<img src="assets/img/landing_page/icon-key.png" width="15">
+						<span>Sign In</span>
+					</a>
+					<a href="https://www.ieee.org/profile/public/createwebaccount/showCreateAccount.html?url=https://ieee-collabratec.ieee.org/rest/signin?ppctNextUrl%7E3D%7E2Fapp%7E2Fhome%7E2Fpostdetails%7E2F6165acaf-74ed-4685-9879-d781d6885432%7E3Fgtmetrack%7E3DHome_PromotedPost&signinurl=https://ieee-collabratec.ieee.org/rest/signin?ppctNextUrl%7E3D%7E2Fapp%7E2Fhome%7E2Fpostdetails%7E2F6165acaf-74ed-4685-9879-d781d6885432%7E3Fgtmetrack%7E3DHome_PromotedPost" class="btn secondary-button-blue hidden-xs">
+						<img src="assets/img/landing_page/icon-user.png" width="15">
+						<span>Create Account</span>
+					</a>
+				</div>
+				<div class="visible-xs dropdown pull-right">
+					<a><i class="fa fa-bars" aria-hidden="true" ></i></a>
+					<ul id="side-dropdown-menu" class="dropdown-menu">
+						<li><a class="tab-to-select">People</a></li>
+						<li><a class="tab-to-select">Communities</a></li>
+						<li><a class="tab-to-select">Workspaces</a></li>
+						<li><a class="tab-to-select">Opportunities</a></li>
+						<li><a class="tab-to-select">Library</a></li>
+						<li><a class="tab-to-select">Events</a></li>
+						<a href="https://ieee-collabratec.ieee.org/rest/signin?ppctNextUrl=%2Fapp%2Fhome%2Fpostdetails%2F6165acaf-74ed-4685-9879-d781d6885432%3Fgtmetrack%3DHome_PromotedPost" class="btn primary-button">
+							<img src="assets/img/landing_page/icon-key.png" width="15">
+							<span>Sign In</span>
+						</a>
+						<a  href="https://www.ieee.org/profile/public/createwebaccount/showCreateAccount.html?url=https://ieee-collabratec.ieee.org/rest/signin?ppctNextUrl%7E3D%7E2Fapp%7E2Fhome%7E2Fpostdetails%7E2F6165acaf-74ed-4685-9879-d781d6885432%7E3Fgtmetrack%7E3DHome_PromotedPost&signinurl=https://ieee-collabratec.ieee.org/rest/signin?ppctNextUrl%7E3D%7E2Fapp%7E2Fhome%7E2Fpostdetails%7E2F6165acaf-74ed-4685-9879-d781d6885432%7E3Fgtmetrack%7E3DHome_PromotedPost" class="btn secondary-button-blue">
+							<img src="assets/img/landing_page/icon-user.png" width="15">
+							<span>Create Account</span>
+						</a>
+					</ul>
+				</div>
+			</div>
+<!-- /#header-menu -->
+					
+
+
+	<div class="clearfix"></div>
+	<div class="conn-user-notification coll-ie-browser col-xs-12">
+	  <div class="col-xs-12 no-padd">
+	  	<div id="coll-br-notif-msg">
+	  	</div>
+	  </div>
+	</div>
+	<div class="clearfix"></div>
+	
+					
+			<div class="top-banner">
+				<div class="container-fluid">
+					<div class="top">
+						<div class="col-xs-12 col-md-8 logo no-padd">
+							<a href="#"><img src="/assets/img/collabratec_logo.png" alt=""></a>
+							<div class="moto hidden-xs">Discover, Connect, Collaborate</div>
+						</div>
+					</div>
+					<div class="banner-lp">
+						<div class="banner-content">
+							<div class="banner-navbar">
+								<h1 class="banner-header">Network, collaborate, and create with technology experts</h1>
+								<ul class="nav nav-tabs tabs-list hidden-xs">
+									<li class="tab-to-select-top-banner active"><a href="#peopletab" data-toggle="tab">people</a></li>
+									<li class="tab-to-select-top-banner"><a href="#communitiestab" data-toggle="tab">communities</a></li>
+									<li class="tab-to-select-top-banner"><a href="#groupstab" data-toggle="tab">workspaces</a></li>
+									<li class="tab-to-select-top-banner"><a href="#opportunitiestab" data-toggle="tab">opportunities</a></li>
+									<li class="tab-to-select-top-banner"><a href="#librarytab" data-toggle="tab">library</a></li>
+									<li class="tab-to-select-top-banner"><a href="#eventstab" data-toggle="tab">events</a></li>				
+								</ul>
+								<div id="navbar-carousel" class="carousel slide visible-xs" data-ride="carousel" data-interval="false">
+									<div class="carousel-inner">
+										<div class="tab-to-select-top-banner item printable active">
+											<h5 class="tab-title">
+												<a class="switch-link non-printable" href="#navbar-carousel" data-slide="prev">
+													<i class="fa fa-angle-left" aria-hidden="true"></i>
+													<span class="sr-only">Previous</span>
+												</a>
+												<span>people</span>
+												<a class="switch-link non-printable" href="#navbar-carousel" data-slide="next">
+													<i class="fa fa-angle-right" aria-hidden="true"></i>
+													<span class="sr-only">Next</span>
+												</a>
+											</h5>
+											<div class="tab-text">Establish your professional identity to connect and network with verified IEEE members and technology professionals
+												by location or technical interests</div>
+										</div>
+										<div class="tab-to-select-top-banner item printable">
+											<h5 class="tab-title">
+												<a class="switch-link non-printable" href="#navbar-carousel" data-slide="prev">
+													<i class="fa fa-angle-left" aria-hidden="true"></i>
+													<span class="sr-only">Previous</span>
+												</a>
+												<span>communities</span>
+												<a class="switch-link non-printable" href="#navbar-carousel" data-slide="next">
+													<i class="fa fa-angle-right" aria-hidden="true"></i>
+													<span class="sr-only">Next</span>
+												</a>
+											</h5>
+											<div class="tab-text">Join the conversation, share your expertise, and engage in debate through globally diverse, engineering-focused communities
+										</div>
+									</div>
+										<div class="tab-to-select-top-banner item printable">
+											<h5 class="tab-title">
+												<a class="switch-link non-printable" href="#navbar-carousel" data-slide="prev">
+													<i class="fa fa-angle-left" aria-hidden="true"></i>
+													<span class="sr-only">Previous</span>
+												</a>
+												<span>workspaces</span>
+												<a class="switch-link non-printable" href="#navbar-carousel" data-slide="next">
+													<i class="fa fa-angle-right" aria-hidden="true"></i>
+													<span class="sr-only">Next</span>
+												</a>
+											</h5>
+											<div class="tab-text">Tap into a global network of technology professionals to develop and collaborate virtually on projects or articles</div>
+										</div>
+										<div class="tab-to-select-top-banner item printable">
+											<h5 class="tab-title">
+												<a class="switch-link non-printable" href="#navbar-carousel" data-slide="prev">
+													<i class="fa fa-angle-left" aria-hidden="true"></i>
+													<span class="sr-only">Previous</span>
+												</a>
+												<span>opportunities</span>
+												<a class="switch-link non-printable" href="#navbar-carousel" data-slide="next">
+													<i class="fa fa-angle-right" aria-hidden="true"></i>
+													<span class="sr-only">Next</span>
+												</a>
+											</h5>
+											<div class="tab-text">Further your career and professional development with access to the latest opportunities, including jobs, tasks, and mentorships</div>
+										</div>
+										<div class="tab-to-select-top-banner item printable">
+											<h5 class="tab-title">
+												<a class="switch-link non-printable" href="#navbar-carousel" data-slide="prev">
+													<i class="fa fa-angle-left" aria-hidden="true"></i>
+													<span class="sr-only">Previous</span>
+												</a>
+												<span>events</span>
+												<a class="switch-link non-printable" href="#navbar-carousel" data-slide="next">
+													<i class="fa fa-angle-right" aria-hidden="true"></i>
+													<span class="sr-only">Next</span>
+												</a>
+											</h5>
+											<div class="tab-text">Stay current with a complete list of IEEE conferences, events, webinars, and meetings</div>
+										</div>
+										<div class="tab-to-select-top-banner item printable">
+											<h5 class="tab-title">
+												<a class="switch-link non-printable" href="#navbar-carousel" data-slide="prev">
+													<i class="fa fa-angle-left" aria-hidden="true"></i>
+													<span class="sr-only">Previous</span>
+												</a>
+												<span>library</span>
+												<a class="switch-link non-printable" href="#navbar-carousel" data-slide="next">
+													<i class="fa fa-angle-right" aria-hidden="true"></i>
+													<span class="sr-only">Next</span>
+												</a>
+											</h5>
+											<div class="tab-text">Store documents, manage references, and conduct a literature search in a personal, cloud-based library</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-content">
+									<p class="text tab-text tab-pane fade in active hidden-xs" id="peopletab">
+										Establish your professional identity to connect and network with verified IEEE members and technology professionals by location or technical interests
+									</p>
+									<p class="text tab-text tab-pane fade hidden-xs" id="communitiestab">
+										Join the conversation, share your expertise, and engage in debate through globally diverse, engineering-focused communities
+									</p>
+									<p class="text tab-text tab-pane fade hidden-xs" id="groupstab">
+										Tap into a global network of technology professionals to develop and collaborate virtually on projects or articles
+									</p>
+									<p class="text tab-text tab-pane fade hidden-xs" id="opportunitiestab">
+										Further your career and professional development with access to the latest opportunities, including jobs, tasks, and mentorships
+									</p>
+									<p class="text tab-text tab-pane fade hidden-xs" id="eventstab">
+										Stay current with a complete list of IEEE conferences, events, webinars, and meetings
+									</p>
+									<p class="text tab-text tab-pane fade hidden-xs" id="librarytab">
+										Store documents, manage references, and conduct a literature search in a personal, cloud-based library
+									</p>
+									<div class="tab-link non-printable">
+										<a class="btn btn-learn page-scroll">
+											<i class="fa fa-angle-double-down" aria-hidden="true"></i> learn more
+										</a>
+									</div>
+								</div>
+								<div class="bottom-buttons non-printable">
+									<a href="https://ieee-collabratec.ieee.org/rest/signin?ppctNextUrl=%2Fapp%2Fhome%2Fpostdetails%2F6165acaf-74ed-4685-9879-d781d6885432%3Fgtmetrack%3DHome_PromotedPost" class="btn primary-button margin-r5">
+										<img src="assets/img/landing_page/icon-key.png" width="15">
+										<span>Sign In</span>
+									</a>
+									<div class="clearfix big-spacer visible-xs"></div>
+									<a href="https://www.ieee.org/profile/public/createwebaccount/showCreateAccount.html?url=https://ieee-collabratec.ieee.org/rest/signin?ppctNextUrl%7E3D%7E2Fapp%7E2Fhome%7E2Fpostdetails%7E2F6165acaf-74ed-4685-9879-d781d6885432%7E3Fgtmetrack%7E3DHome_PromotedPost&signinurl=https://ieee-collabratec.ieee.org/rest/signin?ppctNextUrl%7E3D%7E2Fapp%7E2Fhome%7E2Fpostdetails%7E2F6165acaf-74ed-4685-9879-d781d6885432%7E3Fgtmetrack%7E3DHome_PromotedPost" class="btn secondary-button-blue">
+										<img class="hidden-xs" src="assets/img/landing_page/icon-user.png" width="19"> Create Free Account
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page-break"></div>
+			<div class="meet-people" id="people">
+				<div class="">
+					<h1 class="text-center">Meet Technology Professionals</h1>
+					<div class="tabs container-fluid no-padd">
+						<div class="img-container col-sm-6 no-padd non-printable">
+							<div class="tab-1 img with-bg tab-pane fade in active"></div>
+							<div class="tab-2 img with-bg tab-pane fade"></div>
+							<div class="tab-3 img with-bg tab-pane fade"></div>
+						</div>
+						<div class="col-sm-6 no-padd nav-wrapper">
+							<ul class="nav nav-tabs">
+								<li class="col-xs-4 no-padd active">
+									<a data-toggle="tab" href=".tab-1">
+										<div class="icon"><img src="assets/img/landing_page/icon-search.png" width="42"></div>
+										<h5>Find Experts</h5>
+									</a>
+								</li>
+								<li class="col-xs-4 no-padd">
+									<a data-toggle="tab" href=".tab-2">
+										<div class="icon"><img src="assets/img/landing_page/icon-network.png" width="42"></div>
+										<h5>Get Noticed</h5>
+									</a>
+								</li>
+								<li class="col-xs-4 no-padd">
+									<a data-toggle="tab" href=".tab-3">
+										<div class="icon"><img src="assets/img/landing_page/icon-message.png" width="42"></div>
+										<h5>Message<br>Real-Time</h5>
+									</a>
+								</li>
+							</ul>
+							<div class="tabs-content">
+								<p class="tab-1 text tab-pane fade in active" id=".tab-1">
+									Expand your professional network and stay connected with current contacts all in one place. Easily find technical experts
+									by quickly sorting through thousands of profiles by technical interests, geographic location, school/university, company,
+									IEEE membership grade, Society membership, and more.
+								</p>
+								<p class="tab-2 text tab-pane fade" id=".tab-2">
+									Showcase your accomplishments and empower others to discover your expertise by establishing a professional identity. Expand
+									your trusted network of technical experts to ask questions, share expertise, or create opportunities.
+								</p>
+								<p class="tab-3 text tab-pane fade" id=".tab-3">
+									Sharing your great ideas with trusted colleagues and receiving their feedback is simple and easy, be it one-on-one or with
+									members of a workspace.
+								</p>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div id="communities" class="with-bg">
+						<div class="main-text">
+							<h1>Join and Participate in Communities</h1>
+							<p class="container-fluid">
+								Communities bring together like-minded professionals around exciting topics of technical interest, affinity, or geographic
+								location. Inside a community you can ask questions, share expertise, or debate hot topics as well as discover conferences
+								or meetings taking place around the globe or in a town near by.
+							</p>
+						</div>
+					</div>
+					<div class="cards-wrapper">
+						<div class="cards container-fluid">
+							<div class="card-container col-sm-4 col-xs-12">
+								<div class="card">
+									<div class="icon">
+										<img src="assets/img/landing_page/icon-atomic.png" width="74">
+									</div>
+									<h3>Technical</h3>
+									<p>Stay up-to-date with the latest technical topics including 5G, Smart Cities, Internet of Things, Entrepreneurship,
+										and more.</p>
+								</div>
+							</div>
+							<div class="card-container col-sm-4 col-xs-12">
+								<div class="card">
+									<div class="icon">
+										<img src="assets/img/landing_page/icon-world.png" width="64">
+									</div>
+									<h3>Geographic</h3>
+									<p>
+										Discover and share what is happening locally by joining a community focused on your city or region with communities ranging
+										from Asia/Pacific to London to Uganda and more.
+									</p>
+								</div>
+							</div>
+							<div class="card-container col-sm-4 col-xs-12">
+								<div class="card">
+									<div class="icon">
+										<img src="assets/img/landing_page/icon-star.png" width="64">
+									</div>
+									<h3>Special Interests</h3>
+									<p>
+										Celebrate IEEE's diversity by joining communities for Young Professionals, IEEE Day, Global Student Exchange, Women in Leadership,
+										and more.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page-break"></div>
+			<div class="container" id="opportunities">
+				<div class="slider-block col-xs-12 col-sm-12 col-md-12 no-padd">
+					<h2 class="slider-block-title">Embrace Opportunities</h2>
+					<div class="slider">
+						<div id="opportunity-carousel" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#opportunity-carousel" data-slide-to="0" class="active"></li>
+								<li data-target="#opportunity-carousel" data-slide-to="1"></li>
+								<li data-target="#opportunity-carousel" data-slide-to="2"></li>
+								<li data-target="#opportunity-carousel" data-slide-to="3"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item active printable">
+									<img src="assets/img/landing_page/find_your_job.jfif" alt="">
+									<div class="item-inf" id="find-job">
+										<h3>Discover Jobs</h3>
+										<p>Discover your next career opportunity by searching, saving, and applying to technical jobs.</p>
+									</div>
+								</div>
+								<div class="item printable">
+									<img src="assets/img/landing_page/get_discovered.jfif" alt="">
+									<div class="item-inf" id="get-discovered">
+										<h3>Get Discovered</h3>
+										<p>Make it easy for recruiters find you by uploading your CV/resume and making it visible to organizations seeking talent.</p>
+									</div>
+								</div>
+								<div class="item printable">
+									<img src="assets/img/landing_page/mentoring.jfif" alt="">
+									<div class="item-inf" id="mentoring">
+										<h3>Initiate a Mentoring Partnership</h3>
+										<p>Take your career to the next level when you enter a mentoring relationship. Identify yourself as a mentor or search
+											and connect with one of the 450+ available mentors. This feature is available only to IEEE members.</p>
+									</div>
+								</div>
+								<div class="item printable">
+									<img src="assets/img/landing_page/home_page_bg_4.jpg" alt="">
+									<div class="item-inf" id="workforce">
+										<h3>Join a New Workforce</h3>
+										<p>Join students or professionals navigating the transition to a new career. Access talent from around the world by creating
+											a short term assignment, task for a project, freelance opportunity, or internship. This feature is available only
+											to IEEE members.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="wrapper non-printable">
+								<a class="switch-link" href="#opportunity-carousel" data-slide="prev">
+									<i class="fa fa-angle-left" aria-hidden="true"></i>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="switch-link hidden-xs" id="play-pause-button">
+									<div class="play-btn play-btn-pause"></div>
+								</a>
+								<a class="switch-link" href="#opportunity-carousel" data-slide="next">
+									<i class="fa fa-angle-right" aria-hidden="true"></i>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="work-together" id="workspaces">
+				<div class="main-text">
+					<h1>Work Together in Workspaces</h1>
+					<p>Create, organize, share, and collaborate virtually on projects or articles by creating a workspace where you have the option
+						to invite selected individuals or allow anyone to discover and join.
+					</p>
+				</div>
+				<div class="cards container-fluid">
+					<div class="card-container col-sm-6 col-xs-12 no-padd-xs">
+						<div class="card">
+							<div class="img with-bg img-workspace non-printable"></div>
+							<div class="card-desc">
+								<h3>Virtual Workspace</h3>
+								<p>Create a shared library by uploading files, create and manage a to do list, and have real-time discussions with others
+									in your workspace.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="card-container col-sm-6 col-xs-12 no-padd-xs">
+						<div class="card">
+							<div class="img with-bg img-collaborating non-printable"></div>
+							<div class="card-desc">
+								<h3>Collaborate</h3>
+								<p>Move your article or project forward with others in your in workspace when you create, share, and collaborate on files using
+									Microsoft Office, Google Docs, or Overleaf.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="page-break"></div>
+				<div id="library" class="with-bg library-research">
+					<div class="main-text">
+						<h1>Manage Your Library</h1>
+						<p class="container-fluid">Create an easy-to-manage library by accessing online tools to search, store, and cite documents for your research all
+							in one place.
+						</p>
+					</div>
+				</div>
+				<div class="cards container-fluid">
+					<div class="card-container col-sm-4 col-xs-12">
+						<div class="card">
+							<div class="icon non-printable"><img src="assets/img/landing_page/icon-cloud.png" width="64"></div>
+							<h3>Bring Research Together</h3>
+							<p>Use attached services such as Dropbox, Google Drive, Microsoft OneDrive, or Box to store and access files in one place.</p>
+						</div>
+					</div>
+					<div class="card-container col-sm-4 col-xs-12">
+						<div class="card">
+							<div class="icon non-printable"><img src="assets/img/landing_page/icon-layers.png" width="64"></div>
+							<h3>Organize Files</h3>
+							<p>Tag content, create bibliographies, flag for review, create research collections and manage metadata in a personal library.</p>
+						</div>
+					</div>
+					<div class="card-container col-sm-4 col-xs-12">
+						<div class="card">
+							<div class="icon non-printable"><img src="assets/img/landing_page/icon-library.png" width="56"></div>
+							<h3>Search and Save Literature</h3>
+							<p>Conduct a literature search including in IEEE <i>Xplore</i>, and save relevant results to your library.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="events" id="events">
+				<div class="header">
+					<div class="centered">
+						<div class="col-xs-2 calendar-img no-padd-left no-padd-xs non-printable"><img class="img-responsive" src="assets/img/landing_page/icon-participate.png"></div>
+						<div class="col-xs-10 event-title no-padd-right">
+							<h1>Discover IEEE Events</h1>
+							<p>IEEE organizes thousands of conferences and meetings on a wide range of technical topics. Find and sort through IEEE
+								events and activities around the globe or in a town nearby.
+							</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="content">
+					<ul class="tabs-list nav nav-tabs hidden-xs">
+						<li class="active"><a href="#conferences" data-toggle="tab">Global Conferences</a></li>
+						<li><a href="#meetings" data-toggle="tab">Local Meetings</a></li>
+					</ul>
+					<div class="tab-content hidden-xs">
+						<p class="text col-xs-10 tab-pane fade in active" id="conferences">
+							IEEE sponsors more than 1,800 annual conferences and events worldwide, curating cutting-edge technical content and providing
+							access to experts.
+						</p>
+						<p class="text col-xs-10 tab-pane fade" id="meetings">
+							Local sections, chapters, and affinity groups host meet-ups, seminars, workshops, and tours. Find relevant events by location,
+							interest, or date.
+						</p>
+					</div>
+					<div id="events-carousel" class="carousel slide visible-xs" data-ride="carousel" data-interval="false">
+						<div class="carousel-inner">
+							<div class="item active printable">
+								<h5 class="tab-title">
+									<a class="switch-link non-printable" href="#events-carousel" data-slide="prev">
+										<i class="fa fa-angle-left" aria-hidden="true"></i>
+										<span class="sr-only">Previous</span>
+									</a>
+									<span>Global Conferences</span>
+									<a class="switch-link non-printable" href="#events-carousel" data-slide="next">
+										<i class="fa fa-angle-right" aria-hidden="true"></i>
+										<span class="sr-only">Next</span>
+									</a>
+								</h5>
+								<div class="tab-text">IEEE sponsors more than 1,800 annual conferences and events worldwide, curating cutting-edge technical content and providing
+									access to experts.
+								</div>
+							</div>
+							<div class="item printable">
+								<h5 class="tab-title">
+									<a class="switch-link non-printable" href="#events-carousel" data-slide="prev">
+										<i class="fa fa-angle-left" aria-hidden="true"></i>
+										<span class="sr-only">Previous</span>
+									</a>
+									<span>Local Meetings</span>
+									<a class="switch-link non-printable" href="#events-carousel" data-slide="next">
+										<i class="fa fa-angle-right" aria-hidden="true"></i>
+										<span class="sr-only">Next</span>
+									</a>
+								</h5>
+								<div class="tab-text">Local sections, chapters, and affinity groups host meet-ups, seminars, workshops, and tours. Find relevant events by
+									location, interest, or date.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--END OF FOOTER-->
+		</div>
+
+		<div id="footer-wrap">	<!-- HM -> added wrap to hide old footer. -->
+			<!-- /Content -->
+						
+			
+
+<div id="coll-footer">
+
+<div id="footer" class="col-xs-12 no-padd">
+	<div class="container no-padd padd-left-sm padd-right-sm">
+		<div class="hidden-xs">
+			<div class="navigation col-xs-12 col-sm-4 col-md-3 no-padd-right">
+				<h4>IEEE Collabratec</h4>
+				<ul id="collFooterLinks" class="footer-menu-links">					
+					 
+						<li class="tab-to-select-top-banner id="menu-overview"><a class="tab-to-select" href="#peopletab">People</a></li>
+						<li class="tab-to-select-top-banner id="menu-professional"><a class="tab-to-select" href="#communitiestab">Communities</a></li>
+						<li class="tab-to-select-top-banner id="menu-researching"><a class="tab-to-select" href="#groupstab">Workspaces</a></li>
+						<li class="tab-to-select-top-banner id="menu-authoring"><a class="tab-to-select" href="#opportunitiestab">Opportunities</a></li>
+						<li class="tab-to-select-top-banner id="menu-collaborating"><a class="tab-to-select" href="#librarytab">Library</a></li>
+						<li class="tab-to-select-top-banner id="menu-collaborating"><a class="tab-to-select" href="#eventstab">Events</a></li>
+												
+				</ul>
+			</div>
+			<div class="contact col-xs-12 col-sm-4 col-md-3 no-padd-right-sm">
+				<h4>Contact and Support</h4>
+				<ul class="footer-contact-menu-links">
+					<li id="f-guide"><a href="https://sites.google.com/a/ieee.org/ieee-collabratec" target="_blank"> User Guide </a>
+					</li>
+					<li id="f-faq"><a href=" https://supportcenter.ieee.org/app/answers/list/p/1971" target="_blank"> FAQ </a></li>
+					<li id="f-feedback"><a href="https://supportcenter.ieee.org/ci/documents/detail/5/35/12/4d4d5104ea263f47dde44d14ecd61717f2ab9712"> Feedback </a></li>
+					<li id="f-mailto"><a href="mailto:IEEE-Collabratec-Advertising@ieee.org?subject=%20Interested%20in%20Advertising%20on%20IEEE%20Collabratec&amp;body=PLEASE%20INCLUDE%20YOUR%20CONTACT%20INFORMATION%20HERE%20and%20someone%20will%20be%20in%20touch%20with%20you%20regarding%20your%20interest%20in%20IEEE%20Collabratec%20advertising.">Advertise on IEEE Collabratec</a></li>
+				</ul>
+			</div>
+			<div class="legal col-xs-12 col-sm-4 col-md-3 no-padd-right-sm">
+				<h4>Legal</h4>
+				<ul class="footer-legal-menu-links">
+					<li id="f-terms">
+						<a href="http://www.ieee.org/ieee_collabratec_terms_of_use.html?WT.mc_id=cf_terms">Terms of Use</a>		
+					</li>
+					<li id="f-copyright"><a
+						href="http://www.ieee.org/ieee_collabratec_terms_of_use.html?WT.mc_id=cf_terms_cr#sect3">
+							Copyright Policy </a></li>
+					<li id="f-nondis"><a
+						href="http://www.ieee.org/p9-26.html?WT.mc_id=hpf_cf_nondis">
+							Nondiscrimination Policy </a></li>
+					<li id="f-privacy"><a
+						href="http://www.ieee.org/security_privacy.html?WT.mc_id=hpf_cf_privacy">
+							Privacy &amp; Opting Out of Cookies </a></li>
+					<li id="f-accesibility"><a
+						href=" http://www.ieee.org/accessibility_statement.html?WT.mc_id=cf_acc">
+							Accessibility </a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="visible-xs" id="mobile-footer-links">
+			<div class="navigation col-xs-12 col-sm-4 col-md-3">
+				<div class="collapse-title">
+					<h4>IEEE Collabratec</h4>
+					<i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i>
+				</div>
+				<ul id="m-collFooterLinks" class="footer-menu-links collapse-menu">
+					
+						<li class="tab-to-select-top-banner id="m-menu-overview"><a class="tab-to-select" href="#peopletab">People</a></li>
+						<li class="tab-to-select-top-banner id="m-menu-professional"><a class="tab-to-select" href="#communitiestab">Communities</a></li>
+						<li class="tab-to-select-top-banner id="m-menu-researching"><a class="tab-to-select" href="#groupstab">Workspaces</a></li>
+						<li class="tab-to-select-top-banner id="m-menu-authoring"><a class="tab-to-select" href="#opportunitiestab">Opportunities</a></li>
+						<li class="tab-to-select-top-banner id="m-menu-collaborating"><a class="tab-to-select" href="#librarytab">Library</a></li>
+						<li class="tab-to-select-top-banner id="m-menu-collaborating"><a class="tab-to-select" href="#eventstab">Events</a></li>
+					
+				</ul>
+			</div>
+			<div class="contact col-xs-12 col-sm-4 col-md-3">
+				<div class="collapse-title">
+					<h4>Contact and Support</h4>
+					<i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i>
+				</div>
+				<ul class="footer-contact-menu-links collapse-menu"
+					style="display: none;">
+					<li id="m-f-guide"><a href="https://sites.google.com/a/ieee.org/ieee-collabratec" target="_blank"> User Guide </a></li>
+					<li id="m-f-faq"><a href=" https://supportcenter.ieee.org/app/answers/list/p/1971" target="_blank"> FAQ </a></li>
+					<li id="m-f-feedback"><a href="https://supportcenter.ieee.org/ci/documents/detail/5/35/12/4d4d5104ea263f47dde44d14ecd61717f2ab9712"> Feedback </a></li>
+					<li id="m-f-mailto"><a href="mailto:IEEE-Collabratec-Advertising@ieee.org?subject=%20Interested%20in%20Advertising%20on%20IEEE%20Collabratec&amp;body=PLEASE%20INCLUDE%20YOUR%20CONTACT%20INFORMATION%20HERE%20and%20someone%20will%20be%20in%20touch%20with%20you%20regarding%20your%20interest%20in%20IEEE%20Collabratec%20advertising.">Advertise on IEEE Collabratec</a></li>
+				</ul>
+			</div>
+			<div class="legal col-xs-12 col-sm-4 col-md-3">
+				<div class="collapse-title">
+					<h4>Legal</h4>
+					<i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i>
+				</div>
+				<ul class="footer-legal-menu-links collapse-menu"
+					style="display: none;">
+					<li id="m-f-terms">
+						<a href="http://www.ieee.org/ieee_collabratec_terms_of_use.html">Terms of Use</a>		
+					</li>
+					<li id="m-f-copyright"><a
+						href="http://www.ieee.org/ieee_collabratec_terms_of_use.html#sect3">
+							Copyright Policy </a></li>
+					<li id="m-f-nondis"><a
+						href="http://www.ieee.org/p9-26.html?WT.mc_id=hpf_cf_nondis">
+							Nondiscrimination Policy </a></li>
+					<li id="m-f-privacy"><a
+						href="http://www.ieee.org/security_privacy.html?WT.mc_id=hpf_cf_privacy">
+							Privacy &amp; Opting Out of Cookies </a></li>
+					<li id="m-f-accesibility"><a
+						href=" http://www.ieee.org/accessibility_statement.html?WT.mc_id=cf_acc">
+							Accessibility </a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="about col-xs-12 col-sm-12 col-md-3 no-padd-right">
+		
+		
+			<div class="logged-out-btns col-xs-12 no-padd" style="display:block;">
+				<a href="https://ieee-collabratec.ieee.org/rest/signin?ppctNextUrl=%2Fapp%2Fhome%2Fpostdetails%2F6165acaf-74ed-4685-9879-d781d6885432%3Fgtmetrack%3DHome_PromotedPost" class="btn btn-info btn-sign-in">Sign In</a> <a
+					href="https://www.ieee.org/profile/public/createwebaccount/showCreateAccount.html?url=https://ieee-collabratec.ieee.org/rest/signin?ppctNextUrl%7E3D%7E2Fapp%7E2Fhome%7E2Fpostdetails%7E2F6165acaf-74ed-4685-9879-d781d6885432%7E3Fgtmetrack%7E3DHome_PromotedPost&signinurl=https://ieee-collabratec.ieee.org/rest/signin?ppctNextUrl%7E3D%7E2Fapp%7E2Fhome%7E2Fpostdetails%7E2F6165acaf-74ed-4685-9879-d781d6885432%7E3Fgtmetrack%7E3DHome_PromotedPost" class="btn btn-info btn-create">Create
+					your free IEEE account</a>
+			</div>
+		
+			<div class="clearfix"></div>
+			<h4>About IEEE</h4>
+			<div class="col-xs-12 col-sm-9 col-md-12 no-padd">
+				<p id="rights">
+					<span>A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.</span>
+				</p>
+			</div>
+			<div class="footer-logo col-xs-12 col-sm-3 hidden-xs no-padd">
+				<a class="pull-right" href="http://www.ieee.org/" target="_blank">
+					<img src="/assets/img/ieee_logo.png" alt="Logo" width="150">
+				</a>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		<div class="col-xs-12 no-padd padd-xs">
+			<div class="copyright col-xs-12 no-padd">
+				<p class="text-left">
+					&copy; Copyright 2020 IEEE - All rights reserved. Use of this Web site
+					signifies your agreement to the IEEE Collabratec&reg; <a
+						href="http://www.ieee.org/ieee_collabratec_terms_of_use.html?WT.mc_id=cf_terms">terms
+						of use</a>.
+				</p>
+			</div>
+		</div>
+		<div class="big-spacer clearfix"></div>
+	</div>
+</div>
+		
+		
+<script type='text/javascript' src="/assets/js/libs/webtrends/ieee-webtrends.js?ver=11042020_1031"></script>
+
+ 
+
+
+<script>
+var wt_domain = 'statse.webtrendslive.com';
+var wt_dcsid = 'dcs222b9duvae498vr4htbl1n_8b1o';
+collFrontEndProps= {"ieeesigninCreateurlPart1":"https://www.ieee.org/profile/public/createwebaccount/showCreateAccount.html?url","cnPublicProfilePrefix":"ieee-usa-consultants/pp/","maxSavedBusinessProviders":"24","googleCustomSearchEngineId":"012373787758713616851:fy2_ymuqk98","loggedInPGURLPrefix":"app/workspaces/","ppctsigninurl":"https://ieee-collabratec.ieee.org/rest/signin","ppctCommNewUserTS":"604800000","publicCommunityTitle":"| IEEE Collabratec(R) ","homeTitle":"Home | IEEE Collabratec(R)","publicDocumentTitle":"| IEEE Collabratec(R)","eventDetailTitle":"| IEEE Collabratec(R) ","toolboxTitle":"Toolbox | IEEE Collabratec(R) ","signinIeeeOrgUrl":"https://www.ieee.org/","ibpDomainSecure":"https://www.ieee.org","libraryTitle":"Library | IEEE Collabratec(R) ","publicProfileURLPrefix":"app/p/","researchgroupDetailTitle":"| IEEE Collabratec(R) ","googleCustomSearchKey":"AIzaSyC5tKYtMXs7IkMKuGj-3AAPbMSBMBvBMqQ","googleAdslotPrefix":"/309482/IEEECollabratec","renewalURL":"membership_services/membership/renew/index.html?WT.mc_id=ct_renew","s3StorageBucket":"ct-prd-largefiles","loggedInProfileURLPrefix":"app/p/","qaUpdateDeleteInMillis":"900000","signinIeeeOrgMoresitesUrl":"https://www.ieee.org/sitemap/","profileimageurl":"https://ieee-collabratec.ieee.org/proimage/downloadphoto?appname=IBP&imagekey=","ppctEnv":"pr","overleafProfileUrl":"https://www.overleaf.com/users/profile","landingTitle":"IEEE Collabratec(R) - Bright Minds. Bright Ideas.","ppctDomainSecure":"https://ieee-collabratec.ieee.org","ppctDomain":"https://ieee-collabratec.ieee.org","headerInviteTitle":"Invite | IEEE Collabratec(R)","ibpDomain":"https://www.ieee.org","profileNetworkMobilePageItemSize":"4","searchresultsGroupsTitle":": Workspaces | IEEE Collabratec(R) ","emailNotificationsTitle":"E-mail Notifications | IEEE Collabratec(R) ","peopleSearchAllResultsMemberText":"200,000+","pagenotfoundTitle":"Page Not Found | IEEE Collabratec(R) ","publicEventTitle":"| IEEE Collabratec(R) ","profileMyNetworkItemSize":"9","loggedInOpportunityURLPrefix":"app/opportunity/","ieeesigninPingTargeturl":"https://ieee-collabratec.ieee.org/rest/signin","notificationReloadInterval":"60000","ppctS3BucketURL":"https://ct-prd-documentmedia.s3.amazonaws.com/","communityDetailTitle":"| IEEE Collabratec(R) ","maxFileSizeLimitMessage":"10GB","consultantGoogleAdslotPrefix":"/97903057","attachedServicesTitle":"Attached Services | IEEE Collabratec(R) ","largeFileUploadInitiateLimitMessage":"30MB","todoListForPGEnabled":"true","smartCitiesExchangeForBusinesses":"/membership-catalog/productdetail/showProductDetailPage.html?product=CMYSCSP772","twitterProfileUrl":"https://twitter.com/","researchgroupsTitle":"Workspaces | IEEE Collabratec(R) ","largeFileUploadEnabled":"true","interestsTitle":"Interests | IEEE Collabratec(R) ","profilePubNetworkItemSize":"10","loggedInQuestionURLPrefix":"app/question/","signinSpectrumUrl":"http://spectrum.ieee.org/","questionsnanswersTitle":"Quesitons and Answers | IEEE Collabratec(R)","ppctContextRoot":"/","myProfileTitle":"My Profile | IEEE Collabratec(R)","googleMapsKey":"AIzaSyC5tKYtMXs7IkMKuGj-3AAPbMSBMBvBMqQ","smartCitiesExchangeForBusinessesAssetcode":"SCSP772","largeFileUploadInitiateLimit":"30000000","eventsTitle":"Events | IEEE Collabratec(R) ","s3StorageProviderBucket":"ct-prd-largefiles-storage-provider","peopleTitle":"People | IEEE Collabratec(R)","notificationsTitle":"Notifications | IEEE Collabratec(R)","linkedInProfileUrl":"https://www.linkedin.com/profile/view","largeFile250MBFileSize":"262144000","peopleSearchAllResultsNonMemberText":"100,000+","searchresultsAllTitle":"| IEEE Collabratec(R) ","ieeesigninPingPartnerTxt":"PPCTIEEE&TARGET","ppctJoinUrl":"https://ieee-collabratec.ieee.org/","searchresultsPeopleTitle":": People | IEEE Collabratec(R) ","googlePlusProfileUrl":"https://plus.google.com/u/0/me","ibpEditProfEduInfoURL":"/profile/profedu/getProfEduInformation.html","googleTagManagerCode":"GTM-WGH2F67","publicQuestionURLPrefix":"app/question/","mediaBucketName":"ct-prd-documentmedia","disableCaptcha":"false","displayDescLength":"140","ieeeSpectrumUrl":"http://spectrum.ieee.org/","loggedInEventURLPrefix":"app/event/","publicProfileTitle":"| IEEE Collabratec(R) ","settingsTitle":"Settings | IEEE Collabratec(R) ","resumeLabUrl":"http://www.ieee.org/resumelab","maintenanceTitle":"Maintenance | IEEE Collabratec(R)","signinStandardsUrl":"https://standards.ieee.org/","ieeesigninPingurl":"https://services10.ieee.org/idp/startSSO.ping?PartnerSpId","orcidProfileUrl":"https://orcid.org/","ibpCatalogURL":"/membership-catalog/index.html?N=0","mediaBucketBaseUrl":"https://ct-prd-documentmedia.s3.amazonaws.com/","cnPublicOpportunityPrefix":"ieee-usa-consultants/assignment/p/","oneDriveSearchFoldersEnabled":"false","myNetworkTitle":"My Network | IEEE Collabratec(R) ","ieeesigninCreateUrlPart4":"&signinurl","communitiesTitle":"Communities | IEEE Collabratec(R) ","ibpEditPersonalInfoURL":"/profile/personalprofile/getPersonalProfile.html","ieeesigninCreateUrlPart3":"https://ieee-collabratec.ieee.org/rest/signin","ieeesigninCreateUrlPart2":"https://ieee-collabratec.ieee.org/rest/signin&signinurl","ibpManageMbrsSubURL":"/profile/membershipandsubscription/showMembershipsAndSubscriptions.html","termsOfUseURL":"https://www.ieee.org/ieee_collabratec_terms_of_use.html?WT.mc_id=ct_acc_terms","maxMsgConnList":"150","personProfileTitle":"| IEEE Collabratec(R)","ppctS3BucketCloudFrontURL":"https://dc773e3yplvbs.cloudfront.net/image/","membershipProduct":"IEEE500","mathJaxDomainSecure":"https://drqw8dm2w2no7.cloudfront.net","myPrivacySettingsTitle":"Profile Privacy | IEEE Collabratec(R)","ieeeTvUrl":"http://ieeetv.ieee.org/","profileWidgetSize":"3","myPersonalInfoTitle":"Profile Information | IEEE Collabratec(R) ","loggedInCommunityURLPrefix":"app/community/","largeFile500MBFileSize":"524288000","signinXploreUrl":"http://ieeexplore.ieee.org/","searchresultsCommunitiesTitle":": Communities| IEEE Collabratec(R) ","publicEventURLPrefix":"app/event/","defaultimagepath":"/assets/img/default-profile-picture.gif","termsOfUseCancelURL":"https://www.ieee.org/index.html","searchresultsLibraryTitle":": Library | IEEE Collabratec(R) ","captchaPublickey":"6LfRWVYUAAAAAHnj-cZYTXSII-qH5V5mXyzU8x-0","ibpEditPictureURL":"/profile/personalprofile/showAddUpdatePhoto.html","largeFileMaxFileSize":"10737418240","displayTitleLength":"75","backToPPCTCookieName":"_ppct_back_to","salaryCalcUrl":"http://bit.ly/ieeeusa_salary_calc","publicCommunityURLPrefix":"app/community/","consultantNtwGoogleTagManagerCode":"GTM-TZ3PKM4"};
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	 
+try{	
+	 ga('create', 'UA-4930232-10', 'auto', {'allowLinker': true});
+	 ga('send', 'pageview');
+	 ga('require', 'linker'); 
+	 ga('linker:autoLink',['https://sites.google.com/a/ieee.org/ieee-collabratec/', 'https://services10.ieee.org/idp/startSSO.ping?PartnerSpId=PPCTIEEE&TARGET=https://ieee-collabratec.ieee.org/rest/signin']); 
+	 
+	 
+	 
+}catch(e){}
+	 
+</script>
+<script>
+var _tag=new WebTrends();
+
+try{
+	_tag.dcsCollect();	
+}catch(e){}
+</script>
+
+<noscript>
+
+<div>
+  <img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="statse.webtrendslive.com/dcs222b9duvae498vr4htbl1n_8b1o/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;DCS.dcscfg=1&amp;WT.tv=9.4.0&amp;dcssip=https://ieee-collabratec.ieee.org"/>
+</div>
+
+
+</noscript>
+
+<a id="top" style="cursor: pointer;"><i class="fa fa-angle-up"></i> back to top</a>
+<!-- /#footer-menu -->	
+
+
+
+
+	<script type="text/javascript">
+		/*
+	    adroll_adv_id = "WXVUC3WQJNFQ7PG6DURDDP";
+	    adroll_pix_id = "WFF3SZ2QXFFVHBJWNWNEJS";
+	    (function () {
+	        var _onload = function(){
+	            if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+	            if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+	            var scr = document.createElement("script");
+	            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+	            scr.setAttribute('async', 'true');
+	            scr.type = "text/javascript";
+	            scr.src = host + "/j/roundtrip.js";
+	            ((document.getElementsByTagName('head') || [null])[0] ||
+	                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+	        };
+	        if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+	        else {window.attachEvent('onload', _onload)}
+	    }());
+	    */
+	</script>
+	
+	
+	<!--
+		Start of DoubleClick Floodlight Tag: Please do not remove
+		Activity name of this tag: IEEE Collabratec Landing Page
+		URL of the webpage where the tag is expected to be placed: https://ieee-collabratec.ieee.org/
+		This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+		Creation Date: 09/24/2015
+	-->
+	<script type="text/javascript">
+		var axel = Math.random();
+		var a = axel * 10000000000000;
+		document.write('<iframe src="https://5112596.fls.doubleclick.net/activityi;src=5112596;type=landi0;cat=ieeec0;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+	</script>
+	
+	<script type="text/javascript">
+	
+	// ForeSee Staging Embed Script v2.01
+	;(function (g) {
+		var forseeUrl = '';
+		if(forseeUrl!=''){
+			var d = document, am = d.createElement('script'), h = d.head || d.getElementsByTagName("head")[0], fsr = 'fsReady',
+	
+			aex = {
+	
+			  "src": "",
+	
+			  "type": "text/javascript",
+	
+			  "async": "true",
+	
+			  "data-vendor": "fs",
+	
+			  "data-role": "gateway"
+	
+			};
+	
+			for (var attr in aex) { am.setAttribute(attr, aex[attr]); } h.appendChild(am); g[fsr] || (g[fsr] = function () { var aT = '__' + fsr + '_stk__'; g[aT] = g[aT] || []; g[aT].push(arguments); });			
+		}
+
+	})(window);
+	</script>
+	
+	<noscript>
+	<iframe src="https://5112596.fls.doubleclick.net/activityi;src=5112596;type=landi0;cat=ieeec0;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+	</noscript>
+	<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+</div>	
+	
+	<!-- PPCT-4548 changes -->
+	<script>
+		try{
+		   // __adroll.record_user({"adroll_segments": "844dff40"})    
+		} catch(err) {}
+	</script>
+
+
+		</div>
+		
+		<script type="text/javascript" src="assets/js/libs/jquery/jquery.min.js?ver=11042020_1031"></script>
+		<script type="text/javascript" src="assets/js/libs/jquery/jquery.cookie.js?ver=11042020_1031"></script>
+		<script type="text/javascript" src="assets/js/libs/bootstrap/bootstrap.min.js?ver=11042020_1031"></script>
+		
+		<script type="text/javascript">
+
+			// DECLARATIONS
+			var minimizedHeader = $('#on-scroll-header');
+			var dropdownMenu = $('#side-dropdown-menu');
+			var tabLink = $('.tab-to-select');
+			var playBtn = $('.play-btn');
+			var opportunityCarousel = $('#opportunity-carousel');
+			var removeNotifBtn = $("#colRemoveNotif");
+			var navFooter = $('#mobile-footer-links .navigation');
+			var conFooter = $('#mobile-footer-links .contact');
+			var legFooter = $('#mobile-footer-links .legal');
+
+			var backgrounds = [
+				"assets/img/landing_page/top-backgrounds/bg-01.jpg",
+				"assets/img/landing_page/top-backgrounds/bg-02.jpg",
+				"assets/img/landing_page/top-backgrounds/bg-03.jpg",
+				"assets/img/landing_page/top-backgrounds/bg-04.jpg",
+				"assets/img/landing_page/top-backgrounds/bg-06.jpg"
+			];
+
+			
+			function showUnSupportedBrowserNotif(){
+				var msgTxt = "You may experience issues with the rendering of fonts in Internet Explorer. We suggest that you use another browser to view IEEE Collabratec.";
+				var notificationHtml = "<p class=\"col-xs-12\"><span class=\"col-xs-11\">"+msgTxt+"</span><span class=\"col-xs-1\"><a href=\"#\" id=\"colBrRemoveNotif\" class=\"remove-notification\"><img src=\"/assets/img/button-close.gif\" style=\"\"></a></span></p>";
+				$("#coll-br-notif-msg").html(notificationHtml).show();
+				
+				$("#colBrRemoveNotif").click(function(evt){
+					evt.stopPropagation();
+				    $("#coll-br-notif-msg").slideUp(500)
+					$("#coll-br-notif-msg").html("");
+					return false;
+				});	
+				
+			}
+
+			function isOldIEBrowser() {
+			    var ua = window.navigator.userAgent;
+
+			    var msie = ua.indexOf('MSIE ');
+			    if (msie > 0) {
+			        // IE 10 or older => return version number
+			        return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+			    }
+
+			    var trident = ua.indexOf('Trident/');
+			    if (trident > 0) {
+			        // IE 11 => return version number
+			        var rv = ua.indexOf('rv:');
+			        return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+			    }
+			   
+			    // other browser
+			    return false;
+			}
+			
+			//INIT DOCUMENT
+			$(document).ready(function(){
+
+				//EVENT LISTENERS
+				if(window.innerWidth > 768) {
+					window.addEventListener('scroll', toggleMinimizedHeaderState, true);
+				}
+				$('.dropdown').find('.fa-bars').on('click', toggleSideDropdownMenu);
+				$('.btn-learn').on('click', learnMore);
+				tabLink.on('click', changeSelectedTab);
+				playBtn.on('click', toggleOpportunityCarouselState);
+				removeNotifBtn.on('click', removeNotif);
+				//navFooter.on('click', showFooterMenu);
+				//conFooter.on('click', showFooterContact);
+				//legFooter.on('click', showFooterlegal);
+				
+				
+				//INIT FUNCTIONS
+				initBackboneStyles();
+				initOpportunityCarousel();
+				initRandomBackground();
+				initInitialScrollTopPosition();
+				
+				
+				try{
+					if(isOldIEBrowser()){		
+						showUnSupportedBrowserNotif();
+					}
+				}catch(e){}
+			});
+
+			function initOpportunityCarousel (){
+				opportunityCarousel.carousel({
+					interval:10000,
+					pause: "false"
+				});
+			}
+
+			function initRandomBackground(){
+				$('.top-banner').css({'background-image': 'url(' + backgrounds[Math.floor(Math.random() * backgrounds.length)] + ')'});
+			}
+			
+
+			function initInitialScrollTopPosition(){
+				var currentRoute = window.location.hash;
+				if(currentRoute.length > 0){
+					var blockTitle = currentRoute.split("_").pop();
+					setTimeout(function() {
+					scrollToBlock(blockTitle);
+				}, 500);
+				} else {
+					return;
+				}
+			}
+
+			function initBackboneStyles() {
+
+				$('#mobile-header').removeClass('visible-xs');
+				$('#mobile-header').hide();
+				$('#header-menu-wrap').hide();
+				$('#page').css({'padding-top' : '0', "overflow-x" : "hidden"});
+				$('.navbar-static-top').css('position','relative');
+				$('a').css({'outline':'none'});
+				$('.hidden-on-fixed li:first-child').css('display', 'none');
+				$('.sites-menu-links li').mouseover(function() {
+					$(this).find(' > a').css({'background-color':'transparent','opacity':'.7'});
+				}).mouseout(function(){
+					$(this).find(' > a').css({'opacity':'1'});
+				});
+				$('.footer-logo').removeClass('no-padd');
+				$("#top").css({'font-size': '14px'});
+			}
+
+
+			//TOGGLE FUNCTIONS
+			function toggleMinimizedHeaderState() {
+
+				var scrollTop = window.pageYOffset;
+
+				if(scrollTop > 150) {
+					minimizedHeader.addClass('visible');
+				} else {
+					minimizedHeader.removeClass('visible');
+					if(dropdownMenu.hasClass('visible')) {
+						dropdownMenu.removeClass('visible');
+					}
+					$('.tab-to-select.active').removeClass('active');
+				}
+			}
+
+			function toggleOpportunityCarouselState() {
+					if (playBtn.hasClass('play-btn-pause')) {
+						playBtn.addClass('play-btn-play').removeClass('play-btn-pause');
+						opportunityCarousel.carousel('pause');
+					} else {
+						playBtn.addClass('play-btn-pause').removeClass('play-btn-play');
+						opportunityCarousel.carousel('cycle');
+					}
+			} 
+
+			function removeNotif() {
+				$("#notificationBanner").addClass('hidden-banner');
+			}
+
+			function toggleSideDropdownMenu(){
+				dropdownMenu.toggleClass('visible');
+			}
+
+			function changeSelectedTab(e) {
+				var selectedTab = $(e.currentTarget);
+				var activeTabLink = $('.tab-to-select.active');
+				var blockTitle = selectedTab[0].innerText.toLowerCase();
+
+				activeTabLink.removeClass('active');
+				selectedTab.addClass('active');
+
+				window.history.replaceState("", "", location.origin + location.pathname + '#discover_' + blockTitle);
+				scrollToBlock(blockTitle);
+			}
+
+			function learnMore() {
+				var selectedTab;
+				if(window.innerWidth < 768) {
+					selectedTab = $('.tab-to-select-top-banner.active').find("span:not('.sr-only')");
+				} else {
+				selectedTab = $('.tab-to-select-top-banner.active').children();
+				}
+				var blockTitle = selectedTab[0].innerText.toLowerCase();
+				window.history.replaceState("", "", location.origin + location.pathname + '#discover_' + blockTitle);
+				scrollToBlock(blockTitle);
+			}
+
+			function scrollToBlock(block) {
+				if(block.startsWith("#")){
+					var mapObject = {
+						    '#peopletab': 'people',
+						    '#communitiestab': 'communities',
+							'#groupstab': 'workspaces',
+							'#opportunitiestab': 'opportunities',
+							'#librarytab': 'library',
+							'#eventstab': 'events'
+						};
+					if(mapObject[block]){
+						block = mapObject[block];
+						var scrollTo = $("#"+block)[0].offsetTop-60;
+						$("html, body").animate({ scrollTop: scrollTo }, 500);
+					}
+				} else {
+					var scrollTo = $("#"+block)[0].offsetTop-60;
+					$("html, body").animate({ scrollTop: scrollTo }, 500);
+				}
+			}
+
+		</script>
+		
+		<script type="text/javascript">
+		   var landingPageHelper ={
+			   focusMarketingTabs:function(){
+				   var focusId = "#landing-page-menu";
+ 	       			if($("#m-landing-page-menu:visible").length>0){
+ 	       				focusId = "#m-landing-page-menu";
+ 	       			}
+ 	       			var focusPos = $(focusId).offset();
+ 	       			window.scrollTo(focusPos.left, focusPos.top);	       				  
+			   },
+			   renderLogin:function(){
+				   try{					  
+		  	       		$("#colRemoveNotif").click(function(evt){
+		  	       			evt.stopPropagation();
+		  	       			$(this).hide();
+		  	       			$("#notification").slideUp();
+		  	       			return false;
+		  	       		});			  	       	
+		  	       		$("#collFooterLinks a.col-tab-item, #m-collFooterLinks a.col-tab-item").click(function(evt){
+		  	       			evt.stopPropagation();
+		  	       			var destHash = $(this).attr("href");
+		  	       			$('#landing-page-menu a[href="'+destHash+'"]:visible, #m-landing-page-menu a[href="'+destHash+'"]').tab('show');
+		  	       			landingPageHelper.focusMarketingTabs();
+		  	       			return false;	
+		  	       		});
+		  	       		
+		  	       	 	$('#landing-page-menu a.col-tab-item, #m-landing-page-menu a.col-tab-item').on('shown.bs.tab', function (e) {
+							var tabName = $(e.target).html();
+							$('#colDropdownSelMenu').html(tabName + ' <i class="fa fa-angle-down"></i>');
+							var requestStr = "ppctNextUrl=/app/home/postdetails/6165acaf-74ed-4685-9879-d781d6885432%3Fgtmetrack%3DHome_PromotedPost";
+							if(requestStr!="" && requestStr!="null" && (requestStr.indexOf("ppctNextUrl")==-1)){
+								var curUrl = "/".concat("?").concat(requestStr);
+								document.location=curUrl +$(e.target).attr("href");
+							}else{
+								document.location="/"+$(e.target).attr("href");	
+							}
+							
+							
+							landingPageHelper.focusMarketingTabs();
+							return false;
+						});
+		  	       	 	
+		  	       		$("#landing-page-menu, #m-landing-page-menu").tab();
+		  	       		var curHash = location.hash;		  	       		
+		  	       		if(curHash!==undefined && curHash!="" && 
+		  	       			(curHash=="#overview-tab" || curHash=="#networking-tab" || curHash=="#researching-tab" || curHash=="#authoring-tab" || curHash=="#collaborating-tab")){
+		  	       			$('#landing-page-menu a[href="'+curHash+'"], #m-landing-page-menu a[href="'+curHash+'"]').tab('show');
+			  	       		$(window).load(function(){
+			  	       			landingPageHelper.focusMarketingTabs();		
+		  	       			});		  	       			
+		  	       		}
+			  	       	$("#collBrowseNotifClose").click(function(evt){
+			  	  			evt.stopPropagation();
+			  	  			$.cookie('collub', 'uh', {path: '/', domain: '.ieee.org'});
+			  	  			$(this).hide();
+			  	  			$("#collUnSupportedBrowserNotif").slideUp();
+			  	  			return false;
+			  	  		});
+						return false;
+				   }catch(e){
+				   }
+				}
+		   }; 
+		   
+		  
+				
+	</script>
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-WGH2F67');</script>
+	<!-- End Google Tag Manager -->
+		
+	<script>
+			
+	 $(document).ready(function() {
+		   landingPageHelper.renderLogin();
+		   try{
+				$('#mobile-footer-links ul').each(function(){
+					$(this).slideUp('fast');
+				});
+
+				$('#footer .collapse-title').unbind('touchstart click').on('touchstart click', function() {
+					event.stopPropagation();
+					event.preventDefault();
+					if(event.handled !== true) {
+						// Do your magic here.
+						var item = $(this);
+
+						if (item.hasClass('active')) {
+							item.next('.collapse-menu').slideUp(200, function(){
+								item.removeClass('active');
+							});
+						} else {
+							item.next('.collapse-menu').slideDown(200, function(){
+								item.addClass('active');
+							});
+						}
+						// /Do your magic here.
+
+						event.handled = true;
+					} else {
+						return false;
+					}
+				});
+			}catch(e){}
+			
+			/*
+			$("#btn-create-account").click(function(){
+				
+				var axel = Math.random() + "";
+				var a = axel * 10000000000000;
+				document.write('<iframe src="https://5112596.fls.doubleclick.net/activityi;src=5112596;type=signu0;cat=ieeec0;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+				
+			});*/
+			
+	   });	
+	 
+	 
+	
+	</script>
+		
+		
+</body>
+</html>

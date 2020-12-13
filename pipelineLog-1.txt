@@ -1,0 +1,28 @@
++ umask 000
+
++ GIT_LFS_SKIP_SMUDGE=1 git clone --branch="master" --depth 50 https://x-token-auth:$REPOSITORY_OAUTH_ACCESS_TOKEN@bitbucket.org/firewiccagroup/go-cloud.git $BUILD_DIR
+Cloning into '/opt/atlassian/pipelines/agent/build'...
+
++ git reset --hard 4ecdc436427e74ed98ba91e1b1aa3f61be9e6d66
+HEAD is now at 4ecdc43 Initial Bitbucket Pipelines configuration
+
++ git config user.name bitbucket-pipelines
+
++ git config user.email commits-noreply@bitbucket.org
+
++ git config push.default current
+
++ git config http.${BITBUCKET_GIT_HTTP_ORIGIN}.proxy http://localhost:29418/
+
++ git remote set-url origin http://bitbucket.org/firewiccagroup/go-cloud
+
++ chmod 777 $BUILD_DIR
+
+Cache "bundler": Downloading
+Cache "bundler": Not found
++ bundle install
+Could not locate Gemfile
+Skipping cache upload for failed step
+Searching for test report files in directories named [test-results, failsafe-reports, test-reports, surefire-reports] down to a depth of 4
+Finished scanning for test reports. Found 0 test report files.
+Merged test suites, total number tests is 0, with 0 failures and 0 errors.
